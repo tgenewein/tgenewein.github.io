@@ -1,11 +1,12 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /About/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Currently I'm a PhD student at the Max-Planck Institute for Intelligent Systems in Tuebingen, Germany. I am also affiliated with the Max-Planck Institute for Biological Cybernetics (Tuebingen).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I am interested in the fundamental relation between decision-making and computation (i.e. information processing). Structure learning, bounded-rationality, etc.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Before coming to Tuebingen, I did my undergrad and master's degree in Telematics at Graz University of Technolgy. In my master's programme I focused on computational intelligence and robotics and did my master's thesis on *Structure Learning for robotic motor control* at the lab of Wolfgang Maass under the supervision of Gerhard Neumann and Elmar Rueckert.
+During my time in Graz I was also working as a part-time software-developer, mostly on embedded systems or on backends that connect to embedded systems (C/C++, C#, .NET (WCF) and also .NET Micro Framework)
