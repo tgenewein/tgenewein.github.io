@@ -2,7 +2,7 @@
 
 title:            Tim Genewein
 locale:           en_US
-url:
+url:              # "http://tgenewein.github.io"
 
 
 # Jekyll configuration
@@ -39,6 +39,7 @@ owner:
     verify:
     ad-client:
     ad-slot:
+    scholar: "https://scholar.google.com/citations?user=peNTK9oAAAAJ&hl=en"
   bing-verify:
   github: tgenewein
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link

@@ -71,7 +71,7 @@ svg:not(:root) {
 .btn {
   display: inline-block;
   margin-bottom: 20px;
-  padding: 8px 20px;
+  padding: 2px 10px;
   @include font-rem(14);
   font-family: $heading-font;
   font-weight: 700;

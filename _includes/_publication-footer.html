@@ -2,8 +2,8 @@
   <p>
     {{ page.citeas }}
   </p>
-  <p>
-    {% if page.publink %} <a href="{{ page.publink }}" title="Go to publication website">Link</a> {% endif %}
-    {% if page.downloadlink %} <a href="{{ page.downloadlink }}" title="Download publication">Download</a><br> {% endif %}
-  </p>
+  <div>
+    {% if page.publink %} <a markdown="0" href="{{ page.publink }}" class="btn">Link</a> {% endif %}
+    {% if page.downloadlink %} <a markdown="0" href="{{ page.downloadlink }}" class="btn">Download</a> {% endif %}
+  </div>
 {% endif %}
