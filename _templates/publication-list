@@ -1,0 +1,9 @@
+---
+layout: publication-index
+title: {{ title }}
+permalink:
+modified:
+excerpt:
+image:
+  feature:
+---

@@ -1,0 +1,9 @@
+{% if page.publication == true %}
+  <p>
+    {{ page.citeas }}
+  </p>
+  <p>
+    {% if page.publink %} <a href="{{ page.publink }}" title="Go to publication website">Link</a> {% endif %}
+    {% if page.downloadlink %} <a href="{{ page.downloadlink }}" title="Download publication">Download</a><br> {% endif %}
+  </p>
+{% endif %}
