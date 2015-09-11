@@ -1,9 +1,14 @@
 <section id="table-of-contents" class="toc">
   <header>
-    <h3><i class="fa fa-book"></i> Overview</h3>
+    <h3><i class="fa fa-list"></i> Overview</h3>
   </header>
 <div id="drawer" markdown="1">
 *  Auto generated table of contents
 {:toc}
+{% if page.researchtopicpage == true %}
+<ul>
+  <li><a href="{{ site.url}}/research/"> <i class="fa fa-fw fa-caret-left"></i> back to Research</a></li>
+</ul>
+{% endif %}
 </div>
 </section><!-- /#table-of-contents -->

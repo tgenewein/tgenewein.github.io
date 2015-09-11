@@ -7,7 +7,7 @@
 {% include _head.html %}
 </head>
 
-<body class="home">
+<body class="page">
 
 {% include _browser-upgrade.html %}
 
@@ -33,28 +33,39 @@
     {% include _author-bio.html %}
   </div>
 
-  <div id="index">
-    <h2><a href="{{ site.url }}/about/">About</a></h2>
-    <p>
-      Two sentences about me.
-    </p>
-    <p>
-      <a markdown="0" href="{{ site.url }}/files/CV.pdf" class="btn">Download CV</a>
-    </p>
+  <section id="table-of-contents" class="toc">
+    <header>
+      <h3><i class="fa fa-fw fa-puzzle-piece"></i> Research topics</h3>
+    </header>
+    <div id="drawer" markdown="1">
+      <ul>
+        {% for page in site.pages %}
+          {% if page.researchtopicpage == true %}
+            {% if page.shorttitle %}
+              <li><a href="{{ site.url }}{{ page.url }}"><i class="fa fa-fw fa-caret-right"></i> {{ page.shorttitle }}</a></li>
+            {% else %}
+              <li><a href="{{ site.url }}{{ page.url }}"><i class="fa fa-fw fa-caret-right"></i> {{ page.title }}</a></li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </section><!-- /#table-of-contents -->
 
-    <h3><a href="{{ site.url}}/posts/">Recent News </a> <a href="{{ site.url }}/feed.xml"> <i class="fa fa-fw fa-rss-square"></i></a></h3>
-    {% for post in site.posts limit:5 %}
-    <article>
-      {% if post.link %}
-        <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
-      {% else %}
-        <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+  <article class="page">
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+      {{ content }}
+      {% if page.share != false %}
+        <hr />
+        {% include _social-share.html %}
       {% endif %}
-    </article>
-    {% endfor %}
-  </div><!-- /#index -->
-</div><!-- /#main -->
+    </div><!-- /.article-wrap -->
+    {% if site.owner.disqus-shortname and page.comments == true %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
 
 <div class="footer-wrap">
   <footer>

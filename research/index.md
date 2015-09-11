@@ -1,13 +1,10 @@
 ---
-layout: page
+layout: researchpage
 title: Research
 share: false
 # date: 2015-09-09 13:53:00
-# permalink: /Research/
+permalink: /research/
 ---
-
-
-{% include _toc.html %}
 
 ## Research interest
 Bounded rationality, information theory of decision-making, foundations of computation, hierarchies of abstraction
@@ -20,7 +17,7 @@ $$ \alpha\_i = \Delta F $$
 ## Links to more special topics
 **Topics**  
 
-* Bounded rationality
+* [Bounded rationality]({{ site.url }}/research/boundedrationality/)
 * Rate distortion decision-making
 * Hierarchies of abstraction
 * Sensorimotor experiments in virtual reality

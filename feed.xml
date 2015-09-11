@@ -35,8 +35,11 @@ sitemap: false
     {% if author.email %}<email>{{ author.email }}</email>{% endif %}
   </author>
   <content type="html">
+    {% if post.publication == true %}
+      {{ post.citeas }}
+    {% endif %}
     {{ post.content | xml_escape }}
-    {% include _feed-footer.html %}
+    <!-- {% include _feed-footer.html %} -->
   </content>
 </entry>
 {% endfor %}

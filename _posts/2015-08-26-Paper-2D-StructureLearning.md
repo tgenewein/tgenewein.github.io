@@ -2,7 +2,6 @@
 layout: post
 title:  "Paper published: structure learning in Bayesian sensorimotor integration."
 date:   2015-08-26 14:31:51
-categories: paper published
 publication: true
 pubtype: "paper"
 publink: "http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004369"

@@ -2,7 +2,6 @@
 layout: post
 title:  "Talk @ NIPS 2013: Abstraction in Decision-Makers with Limited Information Processing Capabilities"
 date:   2013-12-09 15:00:00
-categories: paper published
 publication: true
 pubtype: "talk"
 publink: "http://www.seas.upenn.edu/~ope/workshop/"

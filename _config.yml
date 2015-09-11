@@ -2,7 +2,7 @@
 
 title:            Tim Genewein
 locale:           en_US
-url:              # "http://tgenewein.github.io"
+url:              "http://tgenewein.github.io"
 
 
 # Jekyll configuration
@@ -28,7 +28,10 @@ kramdown:
 owner:
   name: Tim Genewein
   avatar: bio-photo.jpg
-  bio: "PhD Student working on information theoretical models of bounded rationality"
+  bio: "PhD student"
+  affiliation: "Max Planck institute for Intelligent Systems"
+  city: "Tuebingen"
+  country: "Germany"
   email: tim.genewein@gmail.com
   disqus-shortname:
   twitter: #username

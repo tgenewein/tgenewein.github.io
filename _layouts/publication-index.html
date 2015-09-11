@@ -32,10 +32,23 @@
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
-  <div id="index">
-    <h1>[Papers Posters Talks] (TODO: create links here)</h1>
 
-    <h1> Papers </h1>
+  <section id="table-of-contents" class="toc">
+    <header>
+      <h3><i class="fa fa-fw fa-book"></i> Publications</h3>
+    </header>
+    <div id="drawer" markdown="1">
+      <ul>
+        <li><a href="{{ site.url }}/publications/#Papers"><i class="fa fa-fw fa-file-text"></i> Papers</a></li>
+        <li><a href="{{ site.url }}/publications/#Posters"><i class="fa fa-fw fa-list-alt"></i> Posters</a></li>
+        <li><a href="{{ site.url }}/publications/#Talks"><i class="fa fa-fw fa-group"></i> Talks</a></li>
+      </ul>
+    </div>
+  </section><!-- /#table-of-contents -->
+
+  <div id="index">
+
+    <h1 id="Papers">Papers <a href="{{ author.google.scholar }}"> <i class="ai fa-fw ai-google-scholar-square"></i></a> </h1>
     {% capture written_year %}'None'{% endcapture %}
     {% for post in site.posts %}
       {% if post.publication == true %}
@@ -57,7 +70,7 @@
       {% endif %}
     {% endfor %}
 
-    <h1> Posters </h1>
+    <h1 id="Posters">Posters</h1>
     {% capture written_year %}'None'{% endcapture %}
     {% for post in site.posts %}
       {% if post.publication == true %}
@@ -79,7 +92,7 @@
       {% endif %}
     {% endfor %}
 
-    <h1> Talks </h1>
+    <h1 id="Talks">Talks</h1>
     {% capture written_year %}'None'{% endcapture %}
     {% for post in site.posts %}
       {% if post.publication == true %}
