@@ -12,7 +12,7 @@ Bounded rationality, information theory of decision-making, foundations of compu
 ## More details
 Just testing equations $$\beta = 5$$.
 
-$$ \alpha\_i = \Delta F $$
+$$ \alpha_i = \Delta F $$
 
 ## Links to more special topics
 **Topics**  

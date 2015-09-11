@@ -48,7 +48,7 @@
 
   <div id="index">
 
-    <h1 id="Papers">Papers <a href="{{ author.google.scholar }}"> <i class="ai fa-fw ai-google-scholar-square"></i></a> </h1>
+    <h1 id="Papers">Papers <a href="{{ author.google.scholar }}" target="_blank"> <i class="ai fa-fw ai-google-scholar-square"></i></a> </h1>
     {% capture written_year %}'None'{% endcapture %}
     {% for post in site.posts %}
       {% if post.publication == true %}
