@@ -33,15 +33,13 @@
     {% include _author-bio.html %}
   </div>
 
-  <div id="index">
-    <h2><a href="{{ site.url }}/about/">About</a></h2>
-    <p>
-      Two sentences about me.
-    </p>
-    <p>
-      <a markdown="0" href="{{ site.url }}/files/CV.pdf" class="btn">Download CV</a>
-    </p>
+  <article class="page">
+    <div class="article-wrap">
+      {{ content }}
+    </div>
+  </article>
 
+  <div id="index">
     <h3><a href="{{ site.url}}/posts/">Recent News </a> <a href="{{ site.url }}/feed.xml" target="_blank"> <i class="fa fa-fw fa-rss-square"></i></a></h3>
     {% for post in site.posts limit:5 %}
     <article>

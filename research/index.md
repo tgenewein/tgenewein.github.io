@@ -8,7 +8,7 @@ permalink: /research/
 
 <section id="table-of-contents" class="toc">
   <header>
-    <h3><i class="fa fa-fw fa-puzzle-piece"></i> Research topics</h3>
+    <h3><i class="fa fa-fw fa-flask"></i> Research topics</h3>
   </header>
   <div id="drawer" markdown="0">
     <ul>

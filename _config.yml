@@ -29,10 +29,11 @@ owner:
   name: Tim Genewein
   avatar: bio-photo.jpg
   bio: "PhD student"
+  topic: "Information-theoretic foundations of decision-making"
   affiliation: "Max Planck institute for Intelligent Systems"
-  city: "Tuebingen"
+  city: "T&uuml;bingen"
   country: "Germany"
-  email: tim.genewein@gmail.com
+  email:
   disqus-shortname:
   twitter: #username
   facebook: #username
