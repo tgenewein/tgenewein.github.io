@@ -27,6 +27,10 @@ permalink: /research/
 
 
 ## Research interest
+I am interested in building intelligent machines. One of the most important steps towards that goal is to understand how large-scale computational problems can be tackled with limited resources.
+Hierarchical models play a central role in information-efficient inference and decision-making. In my research I am investigating the theoretical foundations of information-optimal hierarchies for bounded rational inference and decision-making.  
+Additionally, I try to understand how the human brain can do so extraordinarily well with very little computational resources through virtual reality experiments with human participants.
+
 Bounded rationality, information theory of decision-making, foundations of computation, hierarchies of abstraction
 
 ## More details

@@ -13,9 +13,14 @@ excerpt: "Personal homepage of Tim Genewein."
   {% include _author-bio.html %}
 </div>
 
-## <a href="{{ site.url}}/about">About</a>
 
 
-I'm a PhD student at the Max Planck Institute for Intelligent Systems working on information-theoretic bounded rationality. I am interested in hierarchies of abstraction in inference and decision-making. Hierarchies might emerge because they allow for efficient information processing which is crucial for systems with computational constraints.
+## [About]({{ site.url }}/about/)
+Currently, I am a PhD student in the [Sensorimotor Learning and Decision-Making](http://www.kyb.tuebingen.mpg.de/research/rg/braun.html) research group lead by Daniel A. Braun at the Max Planck Institute for Intelligent Systems and the Max Planck Institute for Biological Cybernetics. I received my BSc and MSc degrees in Telematics from [Graz University of Technology](http://www.tugraz.at/). More about me is [here]({{ site.url }}/about/).
 
 <a markdown="0" href="{{ site.url }}/files/CV.pdf" class="btn"><i class="fa fa-fw fa-download"></i> Download CV</a>
+
+## [Research]({{ site.url}}/research/)
+I am interested in building intelligent machines. One of the most important steps towards that goal is to understand how large-scale problems can be tackled with limited computational resources. In my research I investigate links between bounded rationality (lately termed computational rationality) and information theory, in particular rate distortion theory. I am working on a theoretical framework for information-optimal hierarchical models for inference and decision-making. Related topics are structure learning, lossy compression, Bayesian probability theory and computational neuroscience.
+Additionally, I try to shed some light on how the human brain can do so extraordinarily well with very little computation through virtual reality experiments on structure learning and Bayesian model selection.  
+More information on my research is [here]({{ site.url }}/research/). An overview of my published work and my talks is [here]({{ site.url }}/publications/).
