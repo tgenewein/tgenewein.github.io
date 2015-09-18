@@ -5,7 +5,7 @@ date:   2013-12-09 15:00:00
 publication: true
 pubtype: "talk"
 publink: "http://www.seas.upenn.edu/~ope/workshop/"
-downloadlink: "/files/publications/talks/NIPS2013_Talk_Genewein.pdf"
+downloadlink: "/files/publications/talks/2013NIPSTalk_Genewein.pdf"
 pubtitle: "Abstraction in Decision-Makers with Limited Information Processing Capabilities"
 citeas: "Genewein T (2013) Abstraction in Decision-Makers with Limited Information Processing Capabilities, NIPS 2013 workshop on Planning with Information Constraints"
 ---
