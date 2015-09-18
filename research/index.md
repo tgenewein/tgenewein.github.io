@@ -2,6 +2,7 @@
 layout: researchpage
 title: Research
 share: false
+excerpt: "Overview of my research-topics"
 # date: 2015-09-09 13:53:00
 permalink: /research/
 ---
@@ -25,6 +26,7 @@ permalink: /research/
   </div>
 </section><!-- /#table-of-contents -->
 
+**TODO: all of this is just dummy-text, final page TBD**
 
 ## Research interest
 I am interested in building intelligent machines. One of the most important steps towards that goal is to understand how large-scale computational problems can be tackled with limited resources.

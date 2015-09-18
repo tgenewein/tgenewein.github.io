@@ -1,5 +1,5 @@
 ---
 layout: post-index
 title: News Archive
-excerpt: "A List of Posts"
+excerpt: "List of all posts"
 ---

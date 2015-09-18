@@ -12,4 +12,4 @@ citeas: "Genewein T, Braun DA (2013) Occam's Razor in sensorimotor learning. Ber
 
 Poster at Bernstein conference 2013.
 
-TODO: add a link to final publication (post on homepage).
+TODO: add a link to final publication (Royal Society paper).

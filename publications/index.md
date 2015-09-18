@@ -2,6 +2,7 @@
 layout: publication-index
 title: Publications
 share: false
+excerpt: "List of publications (papers, posters and talks)"
 # date: 2015-09-09 14:10:00
 permalink: /publications/
 ---
