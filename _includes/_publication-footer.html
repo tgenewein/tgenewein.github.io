@@ -3,7 +3,7 @@
     {{ page.citeas }}
   </p>
   <div>
-    {% if page.publink %} <a markdown="0" onclick="_gaq.push(['_trackEvent','PublicationLink','click', '{{ page.pubtitle | slugify }}']);" href="{{ page.publink }}" class="btn" target="_blank"><i class="fa fa-fw fa-external-link"></i> Link</a> {% endif %}
-    {% if page.downloadlink %} <a markdown="0" onclick="_gaq.push(['_trackEvent','PublicationDownload','click','{{ page.pubtitle | slugify }}']);" href="{{ page.downloadlink }}" class="btn" target="_blank"><i class="fa fa-fw fa-download"></i> Download</a> {% endif %}
+    {% if page.publink %} <a markdown="0" onmouseup="_gaq.push(['_trackEvent','PublicationLink','click', '{{ page.pubtitle | slugify }}']);" href="{{ page.publink }}" class="btn" target="_blank"><i class="fa fa-fw fa-external-link"></i> Link</a> {% endif %}
+    {% if page.downloadlink %} <a markdown="0" onmouseup="_gaq.push(['_trackEvent','PublicationDownload','click','{{ page.pubtitle | slugify }}']);" href="{{ page.downloadlink }}" class="btn" target="_blank"><i class="fa fa-fw fa-download"></i> Download</a> {% endif %}
   </div>
 {% endif %}

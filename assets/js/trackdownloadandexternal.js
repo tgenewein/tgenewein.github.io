@@ -5,7 +5,7 @@ if (typeof jQuery != 'undefined') {
     var baseHref = '';
     if (jQuery('base').attr('href') != undefined) baseHref = jQuery('base').attr('href');
 
-    jQuery('a').on('click', function(event) {
+    jQuery('a').on('mouseup', function(event) {
       var el = jQuery(this);
       var track = true;
       var href = (typeof(el.attr('href')) != 'undefined' ) ? el.attr('href') :"";
