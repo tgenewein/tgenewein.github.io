@@ -29,11 +29,25 @@ permalink: /research/
 **TODO: all of this is just dummy-text, final page TBD**
 
 ## Research interest
-I am interested in building intelligent machines. One of the most important steps towards that goal is to understand how large-scale computational problems can be tackled with limited resources.
-Hierarchical models play a central role in information-efficient inference and decision-making. In my research I am investigating the theoretical foundations of information-optimal hierarchies for bounded rational inference and decision-making.  
-Additionally, I try to understand how the human brain can do so extraordinarily well with very little computational resources through virtual reality experiments with human participants.
+Bounded rationality in two sentences (utility, in general not feasible to search through set of all actions, solution: satisficing)
+
+Hierarchical models play a central role for information-efficient inference and decision-making. In my research I am investigating the theoretical foundations of information-optimal hierarchies for bounded rational inference and decision-making. 
 
 Bounded rationality, information theory of decision-making, foundations of computation, hierarchies of abstraction
+Related topics are structure learning, lossy compression, Bayesian probability theory and computational neuroscience.
+
+
+ * What is bounded rationality?
+   * Information theory and bounded rational decision-making
+   * Hierarchies of abstraction emerge as a consequence of bounded rationality
+ * Sensing for acting (likelihood function synthetization) (coming soon)
+ * Distributed information processing through hierarchies
+   * What is the benefit of hierarchical models?
+   * An objective for information-optimal hierarchical models (coming soon)
+
+Virtual reality experiments
+ * Structure learning
+ * Bayesian model selection 
 
 ## More details
 Just testing equations $$\beta = 5$$.
