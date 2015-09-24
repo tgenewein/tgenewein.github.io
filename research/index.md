@@ -54,6 +54,43 @@ Just testing equations $$\beta = 5$$.
 
 $$ \alpha_i = \Delta F $$
 
+## Testing a Thebe widget
+<pre data-code-language="julia" data-executable='true'>
+using Gadfly
+
+plot(x=rand(10), y=rand(10), Geom.point, Geom.smooth)
+</pre>
+
+<pre data-code-language="julia" data-executable='true'>
+Pkg.add("PyPlot")
+using PyPlot  #this is Julia's wrapper around matplotlib (from Python) it behaves very similar to MATLAB
+
+# compute the "speed of divergence" for point c and perturbation z
+# the return value is small for perturbations that diverge fast, and large for non-divergent sequences
+function julia(z, c; maxiter=200)
+    #iterate through the complex quadratic polynomial
+    for n = 1:maxiter
+        z = z^2 + c         
+        #check if sequence has "diverged"
+        if abs2(z) > 4
+            return n
+        end
+    end
+    return maxiter #sequence has not diverged (yet)
+end
+
+#this call produces the Julia set for c=-0.06+0.67im
+c = complex(-0.06, 0.67)  #try changing this!
+
+jset = [ julia(complex(r,i), c) for i=1:-.002:-1, r=-1.5:.002:1.5 ]; 
+
+#this time with a different colormap
+imshow(jset, cmap="afmhot", extent=[-1.5,1.5,-1,1])
+xlabel("Re(z0)")
+ylabel("Im(z0)")
+title("Julia set (c=$c, complex quadr. pol.)")
+</pre>
+
 ## Links to more special topics
 **Topics**  
 

@@ -32,3 +32,22 @@
 {% if page.comments %}
   {% include _disqus_comments.html %}
 {% endif %}
+
+
+<!-- Thebe - Interactive Jupyter widgets -->
+<script src="https://rawgit.com/oreillymedia/thebe/master/static/main-built.js" type="text/javascript" charset="utf-8"></script>
+
+
+<script>
+    $(function(){
+        new Thebe({url:"https://tmp37.tmpnb.org/", tmpnb_mode: true, kernel_name: "julia-0.3"});
+    });
+</script>
+
+<!--
+<script>
+    $(function(){
+        new Thebe({url:"http://52.89.157.40:8000", tmpnb_mode: true, kernel_name: "julia-0.3"});
+    });
+</script>
+-->
