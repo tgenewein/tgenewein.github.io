@@ -1,7 +1,7 @@
 ---
 layout: home
 excerpt: "Information-optimal hierarchies for bounded rational inference and decision-making."
-tags: [bounded rationality, hierarchies, abstraction, rate distortion, free energy, information theory, decision making]
+tags: [bounded rationality, hierarchies, abstraction, rate distortion, free energy, information theory, decision making, tim genewein]
 # image:
   # feature: sample-image-1.jpg
   # credit: WeGraphics
@@ -21,6 +21,6 @@ Currently, I am a PhD student in the [Sensorimotor Learning and Decision-Making]
 <a markdown="0" href="{{ site.url }}/files/CV.pdf" class="btn"><i class="fa fa-fw fa-download"></i> Download CV</a>
 
 # [Research]({{ site.url}}/research/)
-I am interested in building intelligent machines. An important steps towards that goal is to understand how large-scale problems can be tackled with limited computational resources. In my research I investigate links between bounded rationality (lately termed computational rationality) and information theory, in particular rate distortion theory. I am working on a theoretical framework for information-optimal hierarchical models for inference and decision-making.
+I am interested in building intelligent machines. An important steps towards that goal is to understand how large-scale problems can be tackled with limited computational resources in a theoretically sound way. In my research I investigate links between bounded rationality (lately termed computational rationality) and information theory, in particular rate distortion theory. I am working on a theoretical framework for information-optimal hierarchical models for inference and decision-making.
 Additionally, I try to shed some light on how the human brain can do so extraordinarily well with limited computational resources. I use virtual reality experiments to test predictions of Bayesian structure learning models and model selection mechanisms.  
 More information on my research is [here]({{ site.url }}/research/). An overview of my published work and my talks is [here]({{ site.url }}/publications/).
