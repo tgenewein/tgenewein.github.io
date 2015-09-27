@@ -24,9 +24,6 @@ Currently, I am a PhD student at the [Max-Planck Institute for Intelligent Syste
 Before coming to Tuebingen, I did my bachelor's and master's degrees in [Telematics at Graz University of Technolgy](http://portal.tugraz.at/portal/page/portal/TU_Graz/Einrichtungen/Fakultaeten/FakElektrotechnik/dek4001/studien/telematik). In my master's programme I chose to specialize on *computational intelligence* and *autonomous robots* and did my master's thesis on *Structure Learning for robotic motor control* at the lab of [Wolfgang Maass](http://www.igi.tugraz.at/maass/) under the supervision of [Gerhard Neumann](http://www.ausy.tu-darmstadt.de/Team/GerhardNeumann) and [Elmar Rueckert](http://www.ausy.tu-darmstadt.de/Team/ElmarRueckert).
 During my time in Graz I was also working as a part-time software-developer at [IVM](https://www.ivm.at/), mostly on embedded systems and on backends that connect to embedded systems (C/C++, C#, .NET (WCF, WPF) and also .NET Micro Framework)
 
-
-Lately, I became interested in lowering the barrier to make research practically reproducible. In particular, simulation results with novel algorithms or data analysis with complex models are often subject to many minor technical details that are omitted from a publication because they are not essential for understanding the results but in many cases are crucial for actually (re)producing the results. I think that sharing code is important and I find that [Jupyter](https://jupyter.org/) notebooks provide an excellent way of sharing results in an interactive fashion that lets others easily explore results with minimal effort. Additionally, they are a great tool for communicating ideas and teaching because they allow for very easy interaction which is often crucial for understanding. Occasionally, I write [here]({{ site.url }}/posts/) about tools and projects within the Jupyter ecosystem but also open source / open access efforts that I find worth sharing. 
-
 ## Education
 * 2011 - present: PhD student, Max-Planck Institute for Intelligent Systems
   * Topic: *Structure learning*
@@ -37,6 +34,10 @@ Lately, I became interested in lowering the barrier to make research practically
 ## Professional experience
 * 2009 - 2011 (part-time): Software developer and junior consultant at IVM Engineering
   * ZigBee-to-web communication handler for an embedded data-logging/-monitoring system (SOAP with .NET WCF and .NET Micro Framework, plus prototype-GUI with .NET WPF) 
+
+
+Lately, I became interested in lowering the barrier to make research practically reproducible. Simulation results and data analysis with complex models are often subject to many minor technical details that are omitted from a publication because they are not essential for understanding the results. In many cases these details are crucial for (re)producing the results within reasonable time and effort. I find that [Jupyter](https://jupyter.org/) notebooks provide an excellent way of sharing results. They are also a great tool for communicating ideas and teaching. I am also a big fan of [Julia](http://julialang.org/). Ocassionally, I write about about tools and projects within the Jupyter and Julia ecosystems [here]({{ site.url }}/posts/). 
+
 
 ## Contact  
 Tim Genewein  

@@ -31,7 +31,7 @@ permalink: /research/
 ## Research interest
 Bounded rationality in two sentences (utility, in general not feasible to search through set of all actions, solution: satisficing)
 
-Hierarchical models play a central role for information-efficient inference and decision-making. In my research I am investigating the theoretical foundations of information-optimal hierarchies for bounded rational inference and decision-making. 
+Hierarchical models play a central role for information-efficient inference and decision-making. In my research I am investigating the theoretical foundations of information-optimal hierarchies for bounded rational inference and decision-making. Re-usable knowledge is abstract knowledge.
 
 Bounded rationality, information theory of decision-making, foundations of computation, hierarchies of abstraction
 Related topics are structure learning, lossy compression, Bayesian probability theory and computational neuroscience.
@@ -45,9 +45,9 @@ Related topics are structure learning, lossy compression, Bayesian probability t
    * What is the benefit of hierarchical models?
    * An objective for information-optimal hierarchical models (coming soon)
 
-Virtual reality experiments
- * Structure learning
- * Bayesian model selection 
+ * Virtual reality experiments
+   * Structure learning
+   * Bayesian model selection 
 
 ## More details
 Just testing equations $$\beta = 5$$.
