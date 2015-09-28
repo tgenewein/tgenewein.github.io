@@ -1,5 +1,6 @@
 ---
 layout: post-index
-title: News Archive
+title: All posts
 excerpt: "List of all posts"
+permalink: /blog/
 ---

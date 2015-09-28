@@ -26,12 +26,13 @@ permalink: /research/
   </div>
 </section><!-- /#table-of-contents -->
 
-## Research interest
 I am interested in building intelligent machines. Biological brains do very well at leveraging the rich structure of natural environments to extract re-usable knowledge. This knowledge helps to speed up learning of similar tasks and allows for performing well with less computation. Producing re-usable, transferrable knowledge while learning a specific task is a big unsolved challenge for artificial systems. It is perhaps the main challenge that prevents todays robots from "leaving the lab" - specific tasks can be learnt very well, but even slight task variations often require complete re-learning. Humans and animals are extraordinarily good at structure learning despite having limited computational resources. I believe that it is exactly these limits in computational capacity that drive structure learning, because re-usable knowledge reduces computational demands.  
 My research is focused on understanding how structure learning can be framed as a consequence of having limited computational capacity. I investigate links between a thermodynamic framework for bounded rational decision-making and rate distortion theory (the information-theoretic framework for lossy compression). Building upon these links, I am working on a theoretical framework for information-optimal hierarchical models for bounded rational inference and decision-making.  
 Additionally, I use virtual reality experiments to shed some light on how the human brain performs structure learning and structure selection.
 
 Find out more about the topics involved (including interactive demos) on the research topics pages (coming soon):
+
+
  * Bounded rationality, lossy compression and abstractions
    * What is [bounded rationality]({{ site.url }}/research/boundedrationality/)?
    * Information theory (lossy compression) and bounded rational decision-making
@@ -54,6 +55,8 @@ Find out more about the topics involved (including interactive demos) on the res
 Just testing equations $$\beta = 5$$.
 
 $$ \alpha_i = \Delta F $$
+
+
 
 ## Testing a Thebe widget
 <pre data-code-language="julia" data-executable='true'>
@@ -91,4 +94,3 @@ xlabel("Re(z0)")
 ylabel("Im(z0)")
 title("Julia set (c=$c, complex quadr. pol.)")
 </pre>
-
