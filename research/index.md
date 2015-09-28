@@ -26,30 +26,31 @@ permalink: /research/
   </div>
 </section><!-- /#table-of-contents -->
 
-**TODO: all of this is just dummy-text, final page TBD**
-
 ## Research interest
-Bounded rationality in two sentences (utility, in general not feasible to search through set of all actions, solution: satisficing)
+I am interested in building intelligent machines. Biological brains do very well at leveraging the rich structure of natural environments to extract re-usable knowledge. This knowledge helps to speed up learning of similar tasks and allows for performing well with less computation. Producing re-usable, transferrable knowledge while learning a specific task is a big unsolved challenge for artificial systems. It is perhaps the main challenge that prevents todays robots from "leaving the lab" - specific tasks can be learnt very well, but even slight task variations often require complete re-learning. Humans and animals are extraordinarily good at structure learning despite having limited computational resources. I believe that it is exactly these limits in computational capacity that drive structure learning, because re-usable knowledge reduces computational demands.  
+My research is focused on understanding how structure learning can be framed as a consequence of having limited computational capacity. I investigate links between a thermodynamic framework for bounded rational decision-making and rate distortion theory (the information-theoretic framework for lossy compression). Building upon these links, I am working on a theoretical framework for information-optimal hierarchical models for bounded rational inference and decision-making.  
+Additionally, I use virtual reality experiments to shed some light on how the human brain performs structure learning and structure selection.
 
-Hierarchical models play a central role for information-efficient inference and decision-making. In my research I am investigating the theoretical foundations of information-optimal hierarchies for bounded rational inference and decision-making. Re-usable knowledge is abstract knowledge.
-
-Bounded rationality, information theory of decision-making, foundations of computation, hierarchies of abstraction
-Related topics are structure learning, lossy compression, Bayesian probability theory and computational neuroscience.
-
-
- * What is bounded rationality?
-   * Information theory and bounded rational decision-making
+Find out more about the topics involved (including interactive demos) on the research topics pages (coming soon):
+ * Bounded rationality, lossy compression and abstractions
+   * What is [bounded rationality]({{ site.url }}/research/boundedrationality/)?
+   * Information theory (lossy compression) and bounded rational decision-making
    * Hierarchies of abstraction emerge as a consequence of bounded rationality
- * Sensing for acting (likelihood function synthetization) (coming soon)
- * Distributed information processing through hierarchies
-   * What is the benefit of hierarchical models?
-   * An objective for information-optimal hierarchical models (coming soon)
+ * Information processing hierarchies
+   * Sensing for acting (likelihood function synthetization)
+   * Distributed information processing through hierarchies
+     * What is the benefit of hierarchical models?
+     * An objective for information-optimal hierarchical models
 
  * Virtual reality experiments
    * Structure learning
    * Bayesian model selection 
 
-## More details
+
+**--- dummy content below ---**
+
+
+## Mathjax equations
 Just testing equations $$\beta = 5$$.
 
 $$ \alpha_i = \Delta F $$
@@ -91,10 +92,3 @@ ylabel("Im(z0)")
 title("Julia set (c=$c, complex quadr. pol.)")
 </pre>
 
-## Links to more special topics
-**Topics**  
-
-* [Bounded rationality]({{ site.url }}/research/boundedrationality/)
-* Rate distortion decision-making
-* Hierarchies of abstraction
-* Sensorimotor experiments in virtual reality

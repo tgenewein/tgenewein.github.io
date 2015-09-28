@@ -38,7 +38,7 @@
       {{ content }}
     </div>
     
-    <h3><a href="{{ site.url}}/posts/">Recent News </a> <a href="{{ site.url }}/feed.xml" target="_blank"> <i class="fa fa-fw fa-rss-square"></i></a></h3>
+    <h3><a href="{{ site.url}}/posts/">Latest blog posts </a> <a href="{{ site.url }}/feed.xml" target="_blank"> <i class="fa fa-fw fa-rss-square"></i></a></h3>
     {% for post in site.posts limit:5 %}
     <article>
       {% if post.link %}
