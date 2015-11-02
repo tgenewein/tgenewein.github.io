@@ -57,7 +57,7 @@
               <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.pubtitle }}">{{ post.pubtitle }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.pubtitle }}"><i class="fa fa-link"></i></a></h2>
             {% else %}
               <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.pubtitle }}">{{ post.pubtitle }}</a></h2>
-              <p>{{ post.citeas }}</p>
+              <p>{% if post.citeas %} {{ post.citeas }} {% else %} {{post.excerpt}} {% endif%}</p>
             {% endif %}
           </article>
         {% endif %}
@@ -79,7 +79,7 @@
               <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.pubtitle }}">{{ post.pubtitle }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.pubtitle }}"><i class="fa fa-link"></i></a></h2>
             {% else %}
               <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.pubtitle }}">{{ post.pubtitle }}</a></h2>
-              <p>{{ post.citeas }}</p>
+              <p>{% if post.citeas %} {{ post.citeas }} {% else %} {{post.excerpt}} {% endif%}</p>
             {% endif %}
           </article>
         {% endif %}
@@ -101,7 +101,7 @@
               <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.pubtitle }}">{{ post.pubtitle }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.pubtitle }}"><i class="fa fa-link"></i></a></h2>
             {% else %}
               <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.pubtitle }}">{{ post.pubtitle }}</a></h2>
-              <p>{{ post.citeas }}</p>
+              <p>{% if post.citeas %} {{ post.citeas }} {% else %} {{post.excerpt}} {% endif%}</p>
             {% endif %}
           </article>
         {% endif %}
