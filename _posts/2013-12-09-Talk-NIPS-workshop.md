@@ -17,4 +17,4 @@ Talk at the NIPS 2013 workshop on *Planning with Information Constraints*.
 Abstract of the talk [PDF](http://www.seas.upenn.edu/~ope/workshop/program.pdf)  
 Slides of the talk [PDF]({{ page.downloadlink }})
 
-TODO: add link to publication (post on homepage)
+TODO: add link to publication

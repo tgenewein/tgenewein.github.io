@@ -15,5 +15,4 @@ I presented my current experimental study at this year's Bernstein conference in
 In the study we set up a sensorimotor regression task where we showed participants noisy observations of an underlying function and then asked them to draw their best guess of the underlying function. Importantly, there were two different generative processes of the underlying functions - one that produced rather smooth functions and another one that produced more wiggly functions. The generative models we used were Gaussian processes.  
 In the training phase participants could get used to the statistics of both generative models. In test trials we found that participants selected between the learned models in quantitative agreement with Bayesian model selection. In particular we found that in trials where both models *explained the data equally well* participants preferred the simpler model, which is in line with (Bayesian) Occam's razor.
 
-More information about the experimental study is [here](TODO:linketothepaper)
-TODO: add a link to final publication (Royal Society paper).
+More information about the experimental study is [here](/Paper-OccamsRazorSensorimotor).

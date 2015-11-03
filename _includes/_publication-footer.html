@@ -2,11 +2,17 @@
   <p>
     {{ page.citeas }}
   </p>
+{% endif %}
+
+{% if page.downloadlink || page.publink%}
   <div>
       {% if page.publink %} <a markdown="0" onmouseup="_gaq.push(['_trackEvent','PublicationLink','click', '{{ page.pubtitle | slugify }}']);" href="{{ page.publink }}" class="btn" target="_blank"><i class="fa fa-fw fa-external-link"></i> Link</a> {% endif %}
       {% if page.downloadlink %} <a markdown="0" onmouseup="_gaq.push(['_trackEvent','PublicationDownload','click','{{ page.pubtitle | slugify }}']);" href="{{ page.downloadlink }}" class="btn" target="_blank"><i class="fa fa-fw fa-download"></i> Download</a> {% endif %}
   </div>
+{% endif %}
+
+{% if page.doi %}
   <div align="right">
-    {% if page.doi %} <a target="_blank" onmouseup="_gaq.push(['_trackEvent','PublicationDOI','click','{{ page.pubtitle | slugify }}']);" href="http://dx.doi.org/{{ page.doi }}"><img src="http://img.shields.io/badge/DOI-{{page.doi}}-blue.svg?style=flat-square" alt="DOI:{{page.doi}}"></a> {% endif %}
+    <a target="_blank" onmouseup="_gaq.push(['_trackEvent','PublicationDOI','click','{{ page.pubtitle | slugify }}']);" href="http://dx.doi.org/{{ page.doi }}"><img src="http://img.shields.io/badge/DOI-{{page.doi}}-blue.svg?style=flat-square" alt="DOI:{{page.doi}}"></a>
   </div>
 {% endif %}

@@ -17,7 +17,7 @@ Our paper on a sensorimotor paradigm for Bayesian model selection got published 
 In the paper we present a sensorimotor paradigm that allows for testing whether human choice behavior is quantiatively consistent with Bayesian model selection. In Bayesian model selection, models $M_1$ and $M_2$ are compared by taking their posterior probability ratio (given the data $D$)
 
 $$
-\underbrace{\frac{P(M_1|D)}{P(M_2|D)}}_{\text{posterior odds}} = \underbrace{\frac{P(D|M_1)}{P(D|M_2)}}_{\text{Occam factor}} \underbrace{\frac{P(M_1)}{P(M_2)}}_{\text{prior odds}},
+\underbrace{\frac{P(M_1|D)}{P(M_2|D)}}_{\text{posterior odds}} = \underbrace{\frac{P(D|M_1)}{P(D|M_2)}}_{\text{Bayes factor}} \underbrace{\frac{P(M_1)}{P(M_2)}}_{\text{prior odds}},
 $$
 
 where the model evidence or marginal likelihood is given by marginalizing over the model parameters $\theta$
