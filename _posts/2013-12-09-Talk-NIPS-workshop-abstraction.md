@@ -8,7 +8,7 @@ publink: "http://www.seas.upenn.edu/~ope/workshop/"
 downloadlink: "/files/publications/talks/2013NIPSTalk_Genewein.pdf"
 pubtitle: "Abstraction in Decision-Makers with Limited Information Processing Capabilities"
 citeas: "Genewein T (2013) Abstraction in Decision-Makers with Limited Information Processing Capabilities, NIPS 2013 workshop on Planning with Information Constraints"
-excerpt: "Genewein T (2013) Abstraction in Decision-Makers with Limited Information Processing Capabilities."
+excerpt: "Talk at NIPS 2013 workshop on planning with information constraints - Abstraction in Decision-Makers with Limited Information Processing Capabilities."
 tags: [publication, talk, abstractions, bounded rationality, decision-making, rate distortion]
 ---
 I presented my work on *Abstraction in decision-makers with limited information processing capabilities* at the NIPS 2013 workshop on [*Planning with Information Constraints*](https://old.nips.cc/Conferences/2013/Program/event.php?ID=3723).
