@@ -9,14 +9,17 @@ The original theme has been modified to allow for the following:
   * has a navigation panel based on the automatic TOC
 * Custom footer for posts that announce a publication
   * link and download buttons
+  * DOI badge from shields.io
   * citation-string
   * in order for this to work the following must be specified in the frontmatter:
     * `publication: true`
     * `pubtype: "paper"` can also be `"poster"` or `"talk"`
     * `publink: ""` (optional) string pointing to website of publication (will produce a button below the title)
     * `downloadlink: ""` (optional) string pointing to (internal or external) download location of publication (will produce a button below the title)
+    * `doi: ""` (optional) will produce a doi-badge at the top of the page using shields.io
     * `pubtitle: ""` string for publication list entry
     * `citeas: ""` string that provides citation in plain-text
+    * `excerpt: ""` short description (one, two sentences) - use this for talks if you can't provide a `citeas` field. excerpt will also show up in search results as a description of the page.
 * Research topic navigation bar (based on automatic TOC)
   * any page can be marked with `researchtopicpage: true` to indicate that it is a page for a special research (sub-)topic. On the research-overview page, links to all the researchtopic-pages are automatically provided in a sidebar panel (based on automatic TOC)
   * additionally specify `shorttitle:` which will be the title for display in the navigation panel (TOC)
