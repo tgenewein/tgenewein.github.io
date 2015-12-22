@@ -7,8 +7,8 @@ pubtype: "paper"
 publink: "http://arxiv.org/abs/1312.4353"
 downloadlink: "http://arxiv.org/pdf/1312.4353v2"
 pubtitle: "Abstraction in Decision-Makers with Limited Information Processing Capabilities"
-citeas: "Genewein T (2013) Abstraction in Decision-Makers with Limited Information Processing Capabilities, NIPS 2013 workshop on Planning with Information Constraints"
-excerpt: "Genewein T (2013) Abstraction in Decision-Makers with Limited Information Processing Capabilities."
+citeas: "Genewein T, Braun DA (2013) Abstraction in Decision-Makers with Limited Information Processing Capabilities, NIPS 2013 workshop on Planning with Information Constraints"
+excerpt: "Genewein T, Braun DA (2013) Abstraction in Decision-Makers with Limited Information Processing Capabilities."
 tags: [publication, paper, abstractions, bounded rationality, decision-making, free energy]
 ---
 {% include _toc.html %}
