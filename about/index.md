@@ -25,25 +25,28 @@ Before coming to Tübingen, I received my bachelor's and master's degrees in [Te
 During my time in Graz I was also working as a part-time software-developer at IVM Engineering and NTE Systems, mostly on embedded systems and on backends that connect to embedded systems (C/C++, C#, .NET (WCF, WPF) and also .NET Micro Framework)
 
 ### Education
-* 2011 - present: PhD student, Max-Planck Institute for Intelligent Systems, Tübingen
+* 2012 - present: PhD student, Max-Planck Institute for Intelligent Systems, Tübingen
   * Topic: *Structure learning*
-* 2009 - 2011: MSc Telematics, Graz University of Technology
+* 2009 - 2012: MSc Telematics, Graz University of Technology
   * MSc thesis: *Structure learning for robotic motor control*
 * 2006 - 2009: BSc Telematics, Graz University of Technology
 
 ### Industrial experience
-* 2008 - 2010 (part-time): Junior consultant software engineering at IVM Engineering, Graz
-  * Backend wrapper for CAN bus communication with custom hardware (.NET C#)
-  * Web service communication interface on embedded platform (SOAP with .NET WCF and .NET Micro Framework)
-* 2010 - 2011 (part-time): Software developer at NTE Systems, Graz
-  * ZigBee-to-web communication handler for an embedded home-automation system (.NET WCF and .NET Micro Framework, plus prototype-GUI with .NET WPF) 
+* 11/2009 - 03/2011 (part-time): Software developer at NTE Systems, Graz
+  * Encaplusation of ZigBee-to-web communication for an embedded smart-home controller (.NET WCF and .NET Micro Framework, plus prototype-GUI with .NET WPF) 
+  * Web service implementation on embedded platform (SOAP with .NET WCF and .NET Micro Framework)
+* 08/2008 - 10/2009 (part-time): Junior consultant software engineering at IVM Engineering, Graz
+  * BSc thesis: evaluation of the applicability of aspect-oriented programming in a commercial software project (.NET C#) 
+  * Backend wrapper for CAN bus communication module (.NET C#, C++)
+
+
 
 
 ### Interests
 Lately, I became a fan of the idea of lowering the barrier to make research practically reproducible. Simulation results and data analysis with complex models are often subject to many minor technical details that are omitted from a publication because they are not essential for understanding the results. In many cases these details are crucial for (re)producing the results within **reasonable time** and effort. I find that [Jupyter](https://jupyter.org/) notebooks provide an excellent way of sharing results. They are also a great tool for communicating ideas and teaching. I am also a big fan of [Julia](http://julialang.org/). Ocassionally, I write about about tools and projects within the Jupyter and Julia ecosystems [here]({{ site.url }}/blog/). 
 
 Some things to get a casual conversation going:  
-In my spare-time I still like to tinker a bit with embedded systems and I'm fascinated by aesthetic or intriguing implementations of theoretical phenomena (e.g. kinetic sculptures, the wave pendulum or the mechanical Fourier analyzer). I'm also into baking bread, which I find to be quite rewarding but also meditative as it cannot be rushed. I have been keeping a sourdough starter since 2013 and got fascinated with fermentation since then. More recently, there's also a Gingerbeer plant in my fridge that I use to produce fermented tonic beverages every now and then. Craft beer is nice as well, but I haven't brewed myself yet.
+In my spare-time I still like to tinker a bit with embedded systems and I'm fascinated by aesthetic or intriguing implementations of theoretical phenomena (e.g. kinetic sculptures, the wave pendulum or the mechanical Fourier analyzer). I'm also into baking bread got interested in fermentation thanks to Sandor Katz' wonderful book.
 
 
 ### Contact  
