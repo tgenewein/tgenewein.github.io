@@ -26,26 +26,27 @@ permalink: /research/
   </div>
 </section><!-- /#table-of-contents -->
 
-I am interested in building intelligent machines. Biological brains do very well at leveraging the rich structure of natural environments to extract re-usable knowledge. This knowledge helps to speed up learning of similar tasks and allows for performing well with less computation. Producing re-usable, transferrable knowledge while learning a specific task is a big unsolved challenge for artificial systems. It is perhaps the main challenge that prevents todays robots from "leaving the lab" - specific tasks can be learnt very well, but even slight task variations often require complete re-learning. Humans and animals are extraordinarily good at structure learning despite having limited computational resources. I believe that it is exactly these limits in computational capacity that drive structure learning, because re-usable knowledge reduces computational demands.  
+I am intersted in understanding intelligence and I am interested in building intelligent machines. Biological brains do very well at leveraging the rich structure of natural environments to extract re-usable knowledge. This knowledge helps to speed up learning of similar tasks and allows for performing well with less computation. Producing re-usable, transferrable knowledge while learning a specific task is a big unsolved challenge for artificial systems. It is perhaps the main challenge that prevents todays robots from "leaving the lab" - specific tasks can be learnt very well, but even slight task variations often require complete re-learning. Humans and animals are extraordinarily good at structure learning despite having limited computational resources. I believe that it is exactly these limits in computational capacity that drive structure learning, because re-usable knowledge reduces computational demands.  
 My research is focused on understanding how structure learning can be framed as a consequence of having limited computational capacity. I investigate links between a thermodynamic framework for bounded rational decision-making and rate distortion theory (the information-theoretic framework for lossy compression). Building upon these links, I am working on a theoretical framework for information-optimal hierarchical models for bounded rational inference and decision-making.  
 Additionally, I use virtual reality experiments to shed some light on how the human brain performs structure learning and structure selection.
 
-Find out more about the topics involved (including interactive demos) on the research topics pages (coming soon):
+Find out more about the topics involved on the research topics pages:
 
 
  * Bounded rationality, lossy compression and abstractions
-   * What is [bounded rationality]({{ site.url }}/research/boundedrationality/)?
-   * Information theory (lossy compression) and bounded rational decision-making
-   * Hierarchies of abstraction emerge as a consequence of bounded rationality
+   * [Bounded rational decision-making - an information-theoretic point-of-view]({{ site.url }}/research/boundedrationality/)
+   * [Natural abstractions emerge as a consequence of information-theoretic bounded rationality]({{site.url}}/research/naturalabstractions/)
  * Information processing hierarchies
-   * Sensing for acting (likelihood function synthetization)
-   * Distributed information processing through hierarchies
+   * [Sensing for acting]({{ site.url }}/research/sensingforacting/) (likelihood function synthetization)
+   * [Distributed information processing through hierarchies]({{ site.url }}/research/distributedinformationprocessing)
      * What is the benefit of hierarchical models?
      * An objective for information-optimal hierarchical models
 
  * Virtual reality experiments
-   * Structure learning
-   * Bayesian model selection 
+   * [Structure learning]({{ site.url }}/research/structurelearningexperiments/)
+   * [Bayesian model selection]({{ site.url }}/research/modelselectionexperiments/)
+     * Model evidence - integrating out parameters
+     * Bayesian Occam's razor 
 
 
 **--- dummy content below ---**

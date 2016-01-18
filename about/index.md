@@ -43,10 +43,11 @@ During my time in Graz I was also working as a part-time software-developer at I
 
 
 ### Interests
-Lately, I became a fan of the idea of lowering the barrier to make research practically reproducible. Simulation results and data analysis with complex models are often subject to many minor technical details that are omitted from a publication because they are not essential for understanding the results. In many cases these details are crucial for (re)producing the results within **reasonable time** and effort. I find that [Jupyter](https://jupyter.org/) notebooks provide an excellent way of sharing results. They are also a great tool for communicating ideas and teaching. I am also a big fan of [Julia](http://julialang.org/). Ocassionally, I write about about tools and projects within the Jupyter and Julia ecosystems [here]({{ site.url }}/blog/). 
+Lately, I became a fan of the idea of lowering the barrier to make research practically reproducible. Simulation results and data analysis with complex models are often subject to many minor technical details that are omitted from a publication because they are not essential for understanding the results. In many cases these details are crucial for (re)producing the results within **reasonable time** and effort. I find that [Jupyter](https://jupyter.org/) notebooks provide an excellent way of sharing results. They are also a great tool for communicating ideas and teaching. Additionally, I think that lightweight virtual machines, in particular [Docker](https://www.docker.com/) containers are the way to go to make sure that published code is still executable years after publication (through creating independence of specific core-language and library versions) - definitely keep a look on the [open container initiative](https://www.opencontainers.org/).  
+I am also a big fan of [Julia](http://julialang.org/). Ocassionally, I write about about tools and projects within the Jupyter and Julia ecosystems [here]({{ site.url }}/blog/). 
 
 Some things to get a casual conversation going:  
-In my spare-time I still like to tinker a bit with embedded systems and I'm fascinated by aesthetic or intriguing implementations of theoretical phenomena (e.g. kinetic sculptures, the wave pendulum or the mechanical Fourier analyzer). I'm also into baking bread got interested in fermentation thanks to Sandor Katz' wonderful book.
+In my spare-time I still like to tinker a bit with embedded systems and I'm fascinated by aesthetic or intriguing implementations of theoretical phenomena (e.g. kinetic sculptures, the wave pendulum or mechanical Fourier analyzers). I'm also into baking bread got interested in fermentation thanks to Sandor Katz' wonderful book.
 
 
 ### Contact  
