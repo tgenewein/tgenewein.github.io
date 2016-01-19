@@ -10,26 +10,52 @@ permalink: /research/naturalabstractions/
 
 {% include _toc.html %}
 
-Coming soon - for now, have a look [here]({{ site.url }}/Paper-AbstractionsHierarchiesOptimalityPrinciple/)
-
-
 This article builds on the research article [bounded rationality]({{ site.url }}/research/boundedrationality/), which provides a basic introduction to bounded rationality and the information-theoretic framework for bounded rational decision making and inference.
 
---- draft content below ---
-
-short summary
 
 ### The optimal prior
-Free-energy framework (from before) is bounded optimal decision-making. Priors are assumed to be given - corresponds to a one-shot decision. If same world-state is encountered over and over again it makes sense to adjust the prior in order to minimize computational cost (=learning?). The basic optimization problem can be extended by taking an average over w and optimizing over the prior as well.
+The basic (free energy) principle of bounded rationality (introduced in the [previous research article]({{ site.url }}/research/boundedrationality/)) formalizes a trade-off between large expected utility and low computational cost. The principle assumes a prior or initial policy over actions $$p_0(a)$$ (before computation). Here, the principle is extended by searching for the optimal prior. 
 
-The solution for the prior can be written down in closed form. This leads to a trade-off between large expected utility and low mutual information - the same trade-off as in rate-distortion theory.
+When considering a single world-state $$w$$, the optimal prior is trivial to find, it is given by the optimal posterior (that deterministically maximizes utility). A more interesting question is which distribution over actions $$a$$ is optimal *on average* across all $$w$$. This leads to the follwoing optimization problem:
+
+$$
+\underset{p(a|w), p_0(a)}{\text{arg max}} \sum_{w,a} p(w) p(a|w) U(w,a) - \frac{1}{\beta} \sum_w p(w) D_{\text{KL}}(p(a|w)||p_0(a))
+$$ 
+
+The solution to the optimization over the prior is independent of the posterior and is given by the marginal distribution:
+
+$$
+p_0^*(a) = \sum_w p(a|w)p(w) = p(a)
+$$
+
+Pluggin this result back into the optimization problem leads to:
+
+$$
+p^*(a|w) = \underset{p(a|w)}{\text{arg max}} \underbrace{\sum_{w,a} p(w,a) U(w,a)}_{\text{expected utility}} - \frac{1}{\beta} \underbrace{I(W;A)}_{\text{computational demand}}
+$$ 
+
+where $$I(W;A)$$ denotes the mutual information between the random variables $$W$$ and $$A$$ which is given as the average KL-divergence between $$p(a)$$ and $$p(a\vert w)$$.  
+The new optimization problem formalizes again a trade-off between high expected utility and low computational demand, however, the computational demand is now measured through the mutual information (an *average* KL divergence). The inverse temperature $$\beta$$ still plays the role of translating computational demand into a *cost of computataion* and thus governs the trade-off between the two terms.
+
+
+### Closed-form solution
+Similar to the free-energy case in the previous article, the optimization problem has a closed-form solution - in the form of two self-consistent equations:
+
+$$
+\begin{align}
+p^*(a|w)&=\frac{1}{Z}p(a)e^{\beta U(w,a)}\\
+p(a)&=\sum_w p^*(a|w)p(w) 
+\end{align}
+$$
+
+with the partition sum $$Z=\sum_a p(a)e^{\beta U(w,a)}$$.  
+The solutions can be obtained from arbitrary initializations by iterating the two equations until convergence - this scheme is known in information theory as the Blahut-Arimoto algorithm and is guaranteed to converge to the correct solution.
+
 
 ### Abstractions and lossy compression 
-Forming abstractions and lossy compression are essentially the same problem of discarding irrelevant information and keeping only (a limited amount of) relevant information.
+Perhaps surprisingly, the optimization problem presented above is mathematically equivalent to the optimization problem in **rate-distortion theory**, the information-theoretic framework for *lossy compression*. In rate-distortion theory, the goal is to transmit information over a channel of insufficient capacity in order to minimize a distortion function (equivalent to maximizing a utility function). Since the channel capacity is insufficient, some information must be discarded. Rate-distortion theory formalizes how to discard irrelevant information and transmit relevant information in order to minimze distortion as far as possible.  
+In the principle for bounded rational decision-making, the goal is very similiar: information about $$w$$ must be processed in order to pick a good action $$a$$. Since the agent has limited computational capacity and cannot process $$w$$ fully, it should process the most relevant information about $$w$$ in order to maximize utility. Thus the problems of optimal lossy compression and optimal bounded rational decision-making are not only mathematically strongly related but also conceptually. 
 
-Keeping mutual information low is achieved by finding actions that are good for many world-states, i.e. treating several w as if they were the same (a decision-making abstraction). Inverse temperature governs the granularity of or level of the abstraction.
+Interestingly, the rate-distortion principle for bounded rational decision-making leads to the emergence of natural abstractions: in order to keep the mutual information between world-states and actions low, the decision-maker cannot afford to pick actions that are very specific (and thus informative) about a world-state. Rather, the decision-maker favors actions that are "good" under a number of world-states, thus treating several world-states as if they were the same (by responding to all of them with the same policy). This leads to the emergence of abstractions where certain different $$w$$ are treated as if they were the same. Importantly, the abstractions emerge from the structure of the utility function and their granularity is driven by the computational resources of the agent (governed by the inverse tempereature $$\beta$$). 
 
-Abstractions emerge from the structure of the utility function and the computational limitations - emergence of natural abstractions.
-
-### Example
-Show the example of natural abstractions from the paper (or perhaps the animal/plant taxonomy?)
+An intuitive example for the emergence of abstractions and a more in-depth discussion can be found in [this paper]({{ site.url }}/Paper-AbstractionsHierarchiesOptimalityPrinciple/). The paper contains an example - showing how different natural levels of abstraction emerge, depending on $$\beta$$ - in the form of a [Jupyter notebook](https://github.com/tgenewein/BoundedRationalityAbstractionAndHierarchicalDecisionMaking/blob/master/NotebooksAndCode/2-RateDistortionForDecisionMaking.ipynb) (use [this link](http://nbviewer.jupyter.org/github/tgenewein/BoundedRationalityAbstractionAndHierarchicalDecisionMaking/blob/master/NotebooksAndCode/2-RateDistortionForDecisionMaking.ipynb) if you simply want to view the notebook).   
