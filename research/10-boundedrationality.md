@@ -10,9 +10,9 @@ permalink: /research/boundedrationality/
 
 {% include _toc.html %}
 
-In a nutshell, bounded rational decision-making is about finding optimal actions under restricted computational resources. One of the main difficulties is finding good (mathematical) formalizations of the notion of computational resources. Most proposed solutions to modelling bounded rationality fall into one of two categories:
+In a nutshell, bounded rational decision-making is about finding optimal actions under restricted computational resources. One of the main difficulties is finding good (mathematical) formalizations of the notion of computational resources. Most proposed solutions to modeling bounded rationality fall into one of two categories:
 
-  *  **meta-reasoning**: the decision-maker reasons about its computational limitations and adjusts its decision-making strategy accordingly. One problem is that meta-resoning is also subject to the computational limitations of the agent which would require another level of meta-meta-resoning (which is again subject to limitations and thus leads to an infinite depth of meta-levels).
+  *  **meta-reasoning**: the decision-maker reasons about its computational limitations and adjusts its decision-making strategy accordingly. One problem is that meta-reasoning is also subject to the computational limitations of the agent which would require another level of meta-meta-reasoning (which is again subject to limitations and thus leads to an infinite depth of meta-levels).
   *  **implicit boundedness**: the decision-maker does not reason about its computational limitations and acts according to some internal principle - the limitations only become apparent from an external point-of-view. Approximate computation schemes and heuristics fall into this category.
 
 The information-theoretic framework for bounded rationality presented here also falls in the latter category. The appeal of this particular framework is that it provides a solid theory grounded on first principles (with explicit assumptions) that explicitly quantifies the *cost of computation*.   
