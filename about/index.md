@@ -24,23 +24,27 @@ Currently, I am a PhD student at the [Max-Planck Institute for Intelligent Syste
 Before coming to Tübingen, I received my bachelor's and master's degrees in [Telematics at Graz University of Technology](http://portal.tugraz.at/portal/page/portal/TU_Graz/Einrichtungen/Fakultaeten/FakElektrotechnik/dek4001/studien/telematik). In my master's programme I chose to specialize on *computational intelligence* and *autonomous robots* and did my master's thesis on *structure learning for robotic motor control* under the supervision of [Wolfgang Maass](http://www.igi.tugraz.at/maass/), co-supervised by [Gerhard Neumann](http://www.ausy.tu-darmstadt.de/Team/GerhardNeumann) and [Elmar Rückert](http://www.ausy.tu-darmstadt.de/Team/ElmarRueckert).
 During my time in Graz I was also working as a part-time software-developer at IVM Engineering and NTE Systems, mostly on embedded systems and on backends that connect to embedded systems (C/C++, C#, .NET (WCF, WPF) and also .NET Micro Framework)
 
+---
+
 ### Education
-* 2012 - present: PhD student, Max-Planck Institute for Intelligent Systems, Tübingen
-  * Topic: *Structure learning*
-* 2009 - 2012: MSc Telematics, Graz University of Technology
-  * MSc thesis: *Structure learning for robotic motor control*
-* 2006 - 2009: BSc Telematics, Graz University of Technology
+* **2012 - present: PhD student** (computational neuroscience), Max-Planck Institute for Intelligent Systems, Tübingen
+  * Topic: *Structure learning through hierarchies of abstraction*
+* **2009 - 2012: MSc Telematics**, Graz University of Technology
+  * Focus on: computational intelligence, autonomous robots
+  * MSc thesis: *Structure learning for robotic motor control* [[download]({{ site.url }}/files/telematics/MScThesis_Genewein.pdf)]
+* **2006 - 2009: BSc Telematics**, Graz University of Technology
+  *  BSc thesis: *evaluation of aspect-oriented programming in a commercial software project* [[download]({{ site.url }}/files/telematics/BachelorArbeit_Genewein.pdf)(German)]
 
 ### Industrial experience
-* 11/2009 - 03/2011 (part-time): Software developer at NTE Systems, Graz
-  * Encapsulation of ZigBee-to-web communication for an embedded smart-home controller (.NET WCF and .NET Micro Framework, plus prototype-GUI with .NET WPF) 
-  * Web service implementation on embedded platform (SOAP with .NET WCF and .NET Micro Framework)
-* 08/2008 - 10/2009 (part-time): Junior consultant software engineering at IVM Engineering, Graz
-  * BSc thesis: evaluation of the applicability of aspect-oriented programming in a commercial software project (.NET C#) 
+* **11/2009 - 03/2011 (part-time): Software developer** at NTE Systems, Graz
+  * Encapsulation of ZigBee-to-web communication for an embedded smart-home controller (.NET WCF and .NET Micro Framework, plus prototype-GUI with .NET WPF) [[download]({{ site.url }}/files/telematics/smartHomeControl.pdf)]
+  * Web service implementation on embedded platform (SOAP with .NET WCF and .NET Micro Framework) [[download]({{ site.url }}/files/telematics/Projektarbeit_Genewein.pdf)(German)]
+* **08/2008 - 10/2009 (part-time): Junior consultant software engineering** at IVM Engineering, Graz
+  * BSc thesis: evaluation of aspect-oriented programming in a commercial software project (.NET C#) [[download]({{ site.url }}/files/telematics/BachelorArbeit_Genewein.pdf)(German)]
   * Backend wrapper for CAN bus communication module (.NET C#, C++)
 
 
-
+---
 
 ### Interests
 Lately, I became a fan of the idea of lowering the barrier to make research practically reproducible. Simulation results and data analysis with complex models are often subject to many minor technical details that are omitted from a publication because they are not essential for understanding the results. In many cases these details are crucial for (re)producing the results within **reasonable time** and effort. I find that [Jupyter](https://jupyter.org/) notebooks provide an excellent way of sharing results. They are also a great tool for communicating ideas and teaching. Additionally, I think that lightweight virtual machines, in particular [Docker](https://www.docker.com/) containers are the way to go to make sure that published code is still executable years after publication (through creating independence of specific core-language and library versions) - definitely keep a look on the [open container initiative](https://www.opencontainers.org/).  
@@ -49,6 +53,7 @@ I am also a big fan of [Julia](http://julialang.org/). Occasionally, I write abo
 Some things to get a casual conversation going:  
 In my spare-time I still like to tinker a bit with embedded systems and I'm fascinated by aesthetic or intriguing implementations of theoretical phenomena (e.g. kinetic sculptures, the wave pendulum or mechanical Fourier analyzers). I'm also into baking bread got interested in fermentation thanks to Sandor Katz' wonderful book.
 
+---
 
 ### Contact  
 Tim Genewein  
