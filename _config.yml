@@ -9,7 +9,7 @@ url:              "http://tim.inversetemperature.net"
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge #pygments
 sass:
   sass_dir: _sass
   style: compressed
