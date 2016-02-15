@@ -1,16 +1,15 @@
 ---
 layout: post
-title:  "Why we need to stop using rainbow colormaps: an interactive example"
+title:  "Why we need to stop using rainbow colormaps, an interactive example"
 date:   2016-02-16 11:00:00
 publication: false
-pubtype: "poster"
 excerpt: "Rainbow colormaps distort visualizations of raw data - better alternatives can easily be found and should be used. See here why."
 tags: [visualization, jupyter, binder, python, matplotlib, jet]
 ---
+
 This article contains an accompanying Jupyter notebook, launch it from your browser with this button:  
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tgenewein/StopUsingRainbowColormaps)
 
----
 
 In the early nineties some software company decided to make a rainbow colormap the default-colormap. Soon others would follow and today data-visualizations are flooded with rainbow colormaps. You can find them in many scientific publications in all kinds of fields of research, but they also appear as default options in commercial software across all kinds of domains. 
 
