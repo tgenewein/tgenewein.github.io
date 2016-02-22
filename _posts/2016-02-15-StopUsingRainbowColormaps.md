@@ -20,7 +20,7 @@ Meanwhile there are open letters asking scientific communities to abandon the ra
 
 See the accompanying Jupyter notebook for an interactive example that clearly illustrates the problems with rainbow colormaps (and perceptually non-uniform colormaps). You can also find more information and further reading in the notebook.
 
-The notebook can be run directly in the browser using [binder](http://mybinder.org/), even though its use is still experimental with occasional performance problems (lately a guy published a notebook to play around with the data underlying the recently detected gravitational waves, which is amazing but blew the resources of binder for some time - luckily they have scaled up since then).
+The notebook can be run directly in the browser using [binder](http://mybinder.org/), even though its use is still experimental with occasional performance hiccups (Feb. 2016, but things are improving quickly - big kudos to binder for providing this much needed platform).
 
 Launch the notebook in you browser with the button below:  
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tgenewein/StopUsingRainbowColormaps)
