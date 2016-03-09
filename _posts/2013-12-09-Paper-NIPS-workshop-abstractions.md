@@ -29,7 +29,7 @@ $$
 The trade-off is a variational problem over the optimal policy $$p^*(a|w)$$ that maps world-states $$w$$ to actions $$a$$ such that the expected utility is maximized while at the same time keeping the computational cost low. The computational cost arises because for each $$w$$ the agent has to adapt its behavior from (a prior) $$p(a)$$ to (a posterior) $$p(a|w)$$ and the average computational effort for this adaptation is measured with the mutual information $$I(w;a)$$ which is the average KL-divergence from prior to posterior. The factor $$\beta$$ governs the trade-off and due to the thermodynamic roots of the principle is called the *inverse temperature*.  
 The optimization problem has a closed-form solution (actually a set of two self-consistent equations) which is well known in information theory and can be computed with the Blahut-Arimoto algorithm.
 
-See [Research](/Research/) for more information on the thermodynamic framework and its connection to rate distortion theory.
+See [Research](/research/) for more information on the thermodynamic framework and its connection to rate distortion theory.
 
 
 ## Bounded rationality and abstractions

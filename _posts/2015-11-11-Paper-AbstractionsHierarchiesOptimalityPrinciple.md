@@ -5,7 +5,7 @@ date:   2015-11-11 15:00:00
 publication: true
 pubtype: "paper"
 publink: "http://journal.frontiersin.org/article/10.3389/frobt.2015.00027/abstract"
-downloadlink: "http://journal.frontiersin.org/article/10.3389/frobt.2015.00027/pdf"
+downloadlink: "/files/publications/papers/Frontiers_Hierarchies_Abstractions.pdf"
 pubtitle: "Bounded rationality, abstraction and hierarchical decision-making: an information-theoretic optimality principle"
 doi: "10.3389/frobt.2015.00027"
 citeas: "Genewein T, Leibfried F, Grau-Moya J, Braun DA (2015). Bounded rationality, abstraction and hierarchical decision-making: an information-theoretic optimality principle. Front. Robot. AI 2:27. doi: 10.3389/frobt.2015.00027"
@@ -22,4 +22,6 @@ At the core of the paper is the consequent trade-off between large expected util
 
 The paper also contains a unifying general case that includes the serial and parallel hierarchies as special cases and is a promising starting-point for generalizing towards more complex architectures.
 
-See the [Research pages](/Research/) for more information on the information-theoretic principle for bounded rational decision-making and its extension to decision-making hierarchies. The work presented in the paper is a follow-up on our earlier work on the [formation of abstractions through information processing limitations](/Paper-NIPS-workshop-abstractions/) and was partially presented in a [talk at the seventh workshop on GSO](/Talk-GSOWorkshopFreiburg/).
+See the [Research pages](/research/) for more information on the information-theoretic principle for bounded rational decision-making and its extension to decision-making hierarchies. The work presented in the paper is a follow-up on our earlier work on the [formation of abstractions through information processing limitations](/Paper-NIPS-workshop-abstractions/) and was partially presented in a [talk at the seventh workshop on GSO](/Talk-GSOWorkshopFreiburg/).
+
+The document under the download button is protected by copyright and was first published by Frontiers. All rights reserved. It is reproduced with permission.

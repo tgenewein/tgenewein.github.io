@@ -8,7 +8,7 @@ publink: "http://rspb.royalsocietypublishing.org/content/281/1783/20132952"
 downloadlink: "http://rspb.royalsocietypublishing.org/content/281/1783/20132952.full-text.pdf"
 pubtitle: "Occam's Razor in sensorimotor learning"
 doi: "10.1098/rspb.2013.2952"
-citeas: "Genewein T, Braun DA (2104) Occam's Razor in sensorimotor learning. Proceedings of the Royal Societey B 281:20132952. DOI: 10.1098/rspb.2013.2952"
+citeas: "Genewein T, Braun DA (2104) Occam's Razor in sensorimotor learning. Proceedings of the Royal Societey B 281:20132952. doi: 10.1098/rspb.2013.2952"
 excerpt: "Genewein T, Braun DA (2104) Occam's Razor in sensorimotor learning."
 tags: [publication, paper, Bayesian model selection, Occam's razor, sensorimotor regression, virtual reality experiment]
 ---

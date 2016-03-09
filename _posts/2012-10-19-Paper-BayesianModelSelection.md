@@ -5,7 +5,7 @@ date:   2012-10-19 15:00:00
 publication: true
 pubtype: "paper"
 publink: "http://journal.frontiersin.org/article/10.3389/fnhum.2012.00291/"
-downloadlink: "http://www.frontiersin.org/Journal/DownloadFile/1/148532/33743/1/21/fnhum-06-00291_pdf"
+downloadlink: "/files/publications/papers/Frontiers_BMS.pdf"
 pubtitle: "A sensorimotor paradigm for Bayesian model selection"
 doi: "10.3389/fnhum.2012.00291"
 citeas: "Genewein T, Braun DA (2012) A sensorimotor paradigm for Bayesian model selection. Frontiers in Human Neuroscience 6:291. doi: 10.3389/fnhum.2012.00291"
@@ -31,3 +31,5 @@ If the ratio of posterior odds is larger than one, model $$M_1$$ should be prefe
 In the paper, we designed a virtual-reality experiment that required participants to report their belief about the model $$M_i$$ after observing some data $$D$$. Importantly, the experiment was designed such that we did not ask participants to report their belief over the parameter $$\theta$$ but rather "integrate out" the parameter dimension . To do so, we set up an experiment with a separate model- and parameter-dimension and presented an ambiguous stimulus that was compatible with a whole range of $$\theta$$-values. This required participants to "integrate out" the parameters compatible with the stimulus, similar to the marginalization when computing the model evidence.
 
 We found participants' behavior to be quantitatively consistent with the theoretical model of Bayesian model selection combined with a softmax model selection mechanism.
+
+The document under the download button is protected by copyright and was first published by Frontiers. All rights reserved. It is reproduced with permission.
