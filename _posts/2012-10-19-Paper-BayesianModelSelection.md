@@ -5,7 +5,7 @@ date:   2012-10-19 15:00:00
 publication: true
 pubtype: "paper"
 publink: "http://journal.frontiersin.org/article/10.3389/fnhum.2012.00291/"
-downloadlink: "http://journal.frontiersin.org/article/10.3389/fnhum.2012.00291/pdf"
+downloadlink: "http://www.frontiersin.org/Journal/DownloadFile/1/148532/33743/1/21/fnhum-06-00291_pdf"
 pubtitle: "A sensorimotor paradigm for Bayesian model selection"
 doi: "10.3389/fnhum.2012.00291"
 citeas: "Genewein T, Braun DA (2012) A sensorimotor paradigm for Bayesian model selection. Frontiers in Human Neuroscience 6:291. doi: 10.3389/fnhum.2012.00291"
