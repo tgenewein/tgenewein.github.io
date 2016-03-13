@@ -13,7 +13,7 @@ tags: [publication, paper, abstractions, bounded rationality, decision-making, f
 ---
 {% include _toc.html %}
 
-Our paper on "Abstraction in decision-makers with limited information processing capabilities" was presented at the NIPS 2013 workshop on [*Planning with Information Constraints*](https://old.nips.cc/Conferences/2013/Program/event.php?ID=3723) - you can find the slides of my talk [here](/Talk-NIPS-workshop-abstractions/).
+Our paper on "Abstraction in decision-makers with limited information processing capabilities" was presented at the NIPS 2013 workshop on [*Planning with Information Constraints*](https://old.nips.cc/Conferences/2013/Program/event.php?ID=3723) - you can find the slides of my talk [here](/Talk-NIPS-workshop-abstraction/).
 
 The paper is about constructing optimal decision-makers that have limited computational capacity. As a consequence of these computational limitations we find that natural levels of abstraction emerge in the agent's behavior.
 
