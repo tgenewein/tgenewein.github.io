@@ -51,7 +51,7 @@ Lately, I became a fan of the idea of lowering the barrier to make research prac
 I am also a big fan of [Julia](http://julialang.org/). Occasionally, I write about about tools and projects within the Jupyter and Julia ecosystems [here]({{ site.url }}/blog/). 
 
 Some things to get a casual conversation going:  
-In my spare-time I still like to tinker a bit with embedded systems and I'm fascinated by aesthetic or intriguing implementations of theoretical phenomena (e.g. kinetic sculptures, the wave pendulum or mechanical Fourier analyzers). I'm also into baking bread got interested in fermentation thanks to Sandor Katz' wonderful book.
+In my spare-time I still like to tinker a bit with embedded systems and I'm fascinated by aesthetic or intriguing implementations of theoretical phenomena (e.g. kinetic sculptures, the wave pendulum or mechanical Fourier analyzers). I'm always curious about how to use machine learning and AI for good - I think that recently machine learning has become a tool to massively centralize wealth and power and I'd be interested in hearing about ideas on how to reverse or break that trend (education, open source/open access, ownership of the data produced by you, ...?). I'm also into baking bread and got interested in fermentation in general thanks to Sandor Katz' wonderful book.
 
 ---
 
