@@ -28,10 +28,10 @@ $$
 I(W;A) \leq \text{min} \lbrace I(W;X), I(X;A) \rbrace 
 $$ 
 
-or in other words: if all we care about is maximizing utility, then the serial case requires to pay twice for (at least) the same amount of information processing compared to the rate-distortion case. 
+or in other words: if all we care about is maximizing utility, then the serial case requires to pay (at least) twice for the same amount of information processing compared to the rate-distortion case that consists of a single processing stage only. 
 
 ### Distribution of information processing
-The goal here is to split the total information processing load onto several elements of limited capacity such that in the end the information processed is larger than the information processed by each element (or processing stage). The approach taken here also introduces an "intermediate" random variable $$M$$, but in contrast to the serial case, the joint-distribution factorizes as follows:
+The goal in a parallel hierarchy is to split the total information processing load onto several elements of limited capacity such that in the end the information processed is larger than the information processed by each element (or processing stage). The approach taken here also introduces an "intermediate" random variable $$M$$, but in contrast to the serial case, the joint-distribution factorizes as follows:
 
 $$
 p(w,m,a)=p(w)p(m|w)p(a|w,m)
@@ -40,7 +40,7 @@ $$
 This opens up the possibility for a distribution of information processing load on two stages, a high-level and a low-level stage:
 
 $$
-\underbrace{I(W,M;A)}_{\text{total processing}} = \underbrace{I(W;X)}_{\text{high-level}} + \underbrace{I(W;A|M)}_{\text{low-level}} 
+\underbrace{I(W,M;A)}_{\text{total processing}} = \underbrace{I(W;M)}_{\text{high-level}} + \underbrace{I(W;A|M)}_{\text{low-level}} 
 $$
 
 The reason why the first stage is referred to as "high-level" is because it corresponds to a high-level decision that narrows down the search space over actions for the low-level decision of the second stage (more on this further below).  
@@ -94,13 +94,13 @@ p^*(a|w,m)&=\frac{1}{Z_a}p(a|m)e^{\beta_2 U(w,a)}
 $$
 
 where $$p(w \vert m)$$ is given by Bayes' rule $$p(w \vert m)=\frac{1}{p(w)}p^*(m \vert w)p(m)$$.  
-$$\Delta F(w,x)$$ is the free energy of the low-level stage
+$$\Delta F(w,x)$$ is the free energy (difference) of the low-level stage
 
 $$
 \Delta F(w,x)=\sum_a p^*(a|w,m) U(w,a) - \frac{1}{\beta_2} D_{\text{KL}}(p^*(a|w,m)||p(a|m))
 $$
 
-and acts as a utility for the high-level stage, that is the high-level stage maximizes the free energy trade-off of the low-level stage in a bounded rational fashion. Additionally, $$p(m)=\sum_w p(w)p^*(m \vert w)$$.
+and acts as a utility for the high-level stage, that is the high-level stage maximizes the free energy trade-off of the low-level stage in a bounded rational fashion (since it appears in the exponential term of the solution for the high-level model selector). Additionally, $$p(m)=\sum_w p(w)p^*(m \vert w)$$.
 
 ### Information-optimal hierarchies
 The solution to the optimization problem fully specifies all three components of the two-level hierarchy:
@@ -111,7 +111,7 @@ The solution to the optimization problem fully specifies all three components of
 
 Note that the bounded-optimal low-level decision-maker turns out to be exactly the one that was intuitively motivated earlier (in the paragraph where the model variable was introduced).
 
-Also note that the structure of the hierarchy is governed entirely by the utility-function, the distribution over world-states $$p(w)$$ and the computational limitations of the two stages (controlled by $$\beta_1, \beta_2$$ ). 
+Also note that the structure of the hierarchy is governed entirely by the utility-function, the distribution over world-states $$p(w)$$ and the computational limitations of the two stages (controlled by $$\beta_1, \beta_2$$ ). The hierarchy thus emerges from the utility-function and the computational limitations. Importantly, it is most economic to put the most re-usable computation into the high-level stage (by specifying "good" model priors), therefore models induced by the high-level stage can be regarded as abstractions (narrowing down the search space over more specific actions) and the whole hierarchy becomes a simple hierarchy of abstractions.
 
 ##### Further reading (recommended)
 

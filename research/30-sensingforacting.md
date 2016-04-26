@@ -13,10 +13,10 @@ permalink: /research/sensingforacting/
 
 This article extends the rate-distortion principle for bounded rational decision-making presented in [this research article]({{ site.url }}/research/naturalabstractions/), make sure to read it first if you're unfamiliar with the information-theoretic framework for bounded rationality.
 
-In this research article, the basic principle of trading off gains in expected utility against the computational demand that these gains imply, is consequently applied to a two-stage serial information processing chain. One interpretation of this chain is that the first stage of the chain acts as a perceptual stage that extracts information about the world-state which is used to subsequently drive the second stage that computes a (bounded) optimal action. The key insight, derived by analyzing this processing chain under the information-theoretic framework for bounded rationality is that optimal perception under limited computational resources is shaped by action and cannot be achieved by simply trying to represent the world-state as faithfully as possible.
+In this research article, the basic principle of trading off gains in expected utility against the computational demand that these gains imply, is consequently applied to a two-stage serial information processing chain. One interpretation of this chain is that the first stage of the chain acts as a perceptual stage that extracts information about the world-state which is used to subsequently drive the second stage that computes a (bounded) optimal action. The key insight, derived by analyzing this processing chain under the information-theoretic framework for bounded rationality is that optimal perception under limited computational resources is shaped by action and cannot be achieved by simply trying to represent the world-state as faithfully as possible. As a result, perception and action become tightly coupled and cannot be treated as two independent problems.
 
 ### Decoupled inference and decision-making
-Consider the following problem: given a world-state $$w$$, an agent with limited computational resources should compute an action $$a$$ in order to maximize the utility $$U(w,a)$$. However, in contrast to the [previous problem setup]({{ site.url }}/research/naturalabstractions/), the world-state is not accessible directly but it can be transformed into an internal percept $$x$$ by a perceptual stage. The percept can then be used to drive a subsequent decision-making stage. Formally, the following conditional independences hold:
+Consider the following problem: given a world-state $$w$$, an agent with limited computational resources should compute an action $$a$$ in order to maximize the utility $$U(w,a)$$. However, in contrast to the [previous problem setup]({{ site.url }}/research/naturalabstractions/), the world-state is not accessible directly, but it can be transformed into an internal percept $$x$$ by a perceptual stage. The percept can then be used to drive a subsequent decision-making stage. Formally, the following conditional independences hold:
 
 
 $$
@@ -65,7 +65,7 @@ p^*(a|x)&=\frac{1}{Z_a}p(a)e^{\beta_2 \sum_w p(w|x) U(w,a)}
 $$
 
 where $$p(w \vert x)$$ is given by Bayes' rule $$p(w \vert x)=\frac{1}{p(w)}p^*(x \vert w)p(x)$$.  
-$$\Delta F(w,x)$$ is the free energy of the action stage
+$$\Delta F(w,x)$$ is the free energy (difference) of the action stage
 
 $$
 \Delta F(w,x)=\sum_a p^*(a|x) U(w,a) - \frac{1}{\beta_2} D_{\text{KL}}(p^*(a|x)||p(a))
@@ -84,7 +84,7 @@ $$
 \text{posterior}\propto \text{prior}~e^{\beta~\text{utility}}
 $$
 
-Crucially, this means that bounded-optimal perception has the goal of enabling the action-stage to operate as efficiently as possible (by maximizing its free energy). This is in contrast to many classical approaches that assign perception the role of representing the world-state $$w$$ as faithfully as possible (given the model's limitations) and simply decouple perception and action. 
+Crucially, this means that bounded-optimal perception has the goal of **enabling the action-stage to operate as efficiently as possible** (by maximizing its free energy). This is in contrast to many classical approaches that assign perception the role of representing the world-state $$w$$ as faithfully as possible (given the model's limitations) and simply decouple perception and action. 
 
 
 
