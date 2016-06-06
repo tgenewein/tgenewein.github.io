@@ -64,3 +64,10 @@ Find out more about the topics involved in the research articles below or in the
   *  integrating out the parameters
   *  preference of simpler hypotheses - Bayesian Occam's razor
 
+---
+
+I have closely collaborated with the following people, check out their corresponding websites (links below) for more background information on the information-theoretic framework for bounded rationality and very cool related projects and publications:
+
+*  [Jordi Grau-Moya](http://graumoya.com/)
+*  [Felix Leibfried](http://www.felixleibfried.com/)
+*  [Pedro Ortega](http://www.adaptiveagents.org/)
