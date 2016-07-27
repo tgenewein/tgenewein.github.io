@@ -27,5 +27,3 @@ Launch the notebook in you browser with the button below:
 
 Alternatively find the notebook for viewing or downloading in [my Github repository](https://github.com/tgenewein/StopUsingRainbowColormaps).
 
-
-An article on how to use binder with a customized docker image (including a Julia environment) will follow soon (link here as soon as article is online). 
