@@ -7,7 +7,7 @@ excerpt: "Rainbow colormaps distort visualizations of raw data - better alternat
 tags: [visualization, jupyter, binder, python, matplotlib, jet]
 ---
 
-This article contains an accompanying Jupyter notebook, launch it from your browser with this button:  
+This article contains an accompanying Jupyter notebook, launch it from your browser with this button (if Binder plays along, otherwise use the [Github repository](https://github.com/tgenewein/StopUsingRainbowColormaps)):  
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tgenewein/StopUsingRainbowColormaps)
 
 ---
@@ -16,11 +16,11 @@ In the early nineties some software company decided to make a rainbow colormap t
 
 People in the late nineties already pointed out that rainbow colormaps are a particularly bad way of visualizing data - despite the shiny and fancy looks. There's a whole bunch of problems associated with rainbow colormaps and the Internet is full of articles, blog-posts and scientific papers, pointing out the flaws and providing better alternatives. For instance, one study found that (future) medical doctors preferred rainbow colormaps for detecting anomalies in some processed imaging data (for detecting coronary artery disease), mostly because they were so used to this particular colormap which has become the de-facto standard in the medical literature. However, the same study found that participants' detection accuracy was increased with a different colormap, even though participants were not particularly used to that colormap (see accompanying Jupyter notebook for a reference to the study).
 
-Meanwhile there are open letters asking scientific communities to abandon the rainbow and journals to start banning its use as it is considered poor visual communication, particularly since better methods a readily available. And indeed, almost all software packages for visualization and scientific computing provide a whole range of colormaps, a lot of which are much more suitable than rainbow colormaps. Despite that, the scientific literature is still flooded with images in rainbow colors. This has to stop.
+Meanwhile there are open letters asking scientific communities to abandon the rainbow and journals to start banning its use as it is considered poor visual communication, particularly since better methods a readily available. And indeed, almost all software packages for visualization and scientific computing provide a whole range of colormaps, a lot of which are much more suitable than rainbow colormaps. Despite that, the scientific literature is still flooded with images in rainbow colors.
 
 See the accompanying Jupyter notebook for an interactive example that clearly illustrates the problems with rainbow colormaps (and perceptually non-uniform colormaps). You can also find more information and further reading in the notebook.
 
-The notebook can be run directly in the browser using [binder](http://mybinder.org/), even though its use is still experimental with occasional performance hiccups (Feb. 2016, but things are improving quickly - big kudos to binder for providing this much needed platform).
+The notebook can (potentially) be run directly in the browser using [Binder](http://mybinder.org/), even though its use is still experimental with occasional hiccups (Feb. 2016, big kudos to Binder for providing this much needed platform).
 
 Launch the notebook in you browser with the button below:  
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tgenewein/StopUsingRainbowColormaps)

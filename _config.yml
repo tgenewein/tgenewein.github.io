@@ -28,10 +28,10 @@ kramdown:
 owner:
   name: Tim Genewein
   avatar: bio-photo_new.jpg
-  bio: "PhD student"
-  topic: "Information-optimal hierarchies for bounded rational inference and decision-making"
-  affiliation: "Max Planck institute for Intelligent Systems<br>Max Planck institute for Biological Cybernetics"
-  city: "T&uuml;bingen"
+  bio: ""
+  topic: "Information-optimal hierarchies for inference and decision-making"
+  affiliation: "Bosch Center for Artificial Intelligence"
+  city: "Stuttgart - Renningen"
   country: "Germany"
   email:
   disqus-shortname:

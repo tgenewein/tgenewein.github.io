@@ -28,9 +28,9 @@ permalink: /research/
 
 I am interested in understanding intelligence and in building intelligent machines. Biological brains do very well at leveraging the rich structure of natural environments to extract re-usable knowledge and apply it to similar but not identical situations. This re-usable knowledge helps to speed up learning of similar tasks and allows for performing well with less computation. Producing re-usable, transferable knowledge while learning a specific task is a big unsolved challenge for artificial systems. It is perhaps the main challenge that prevents todays robots from "leaving the lab" - specific tasks can be learned very well, but even slight task variations often require complete re-learning. Humans and animals are extraordinarily good at structure learning despite having limited computational resources. I believe that it is exactly these limits in computational capacity that drive structure learning, because re-usable knowledge reduces computational demands.  
 
-My research is focused on understanding how structure learning can be framed as a consequence of having limited computational capacity. I investigate links between a thermodynamic framework for bounded rational decision-making and rate distortion theory (the information-theoretic framework for lossy compression). Building upon these links, I am contributing towards a theoretical framework for information-optimal hierarchical models for bounded rational inference and decision-making.  
+The focus of my PhD research was understanding how structure learning can be framed as a consequence of having limited computational capacity. I investigated links between a thermodynamic framework for bounded rational decision-making and rate distortion theory (the information-theoretic framework for lossy compression). Building upon these links, I am contributing towards a theoretical framework for information-optimal hierarchical models for bounded rational inference and decision-making. Currently, I am very interested on how to scale-up the ideas and insights gained from my PhD research. While the original information-theoretic formulations (and solutions) only work for very small, discrete systems, recent progress in efficient variational inference might be readily exploitable to "scale things up".  
 
-Additionally, I use virtual reality experiments to shed some light on how the human brain performs structure learning and structure selection. 
+During my PhD, I had also used virtual reality experiments to shed some light on how the human brain performs structure learning and structure selection. 
 
 Find out more about the topics involved in the research articles below or in the side-bar menu of the page.
 
@@ -71,3 +71,4 @@ I have closely collaborated with the following people, check out their correspon
 *  [Jordi Grau-Moya](http://graumoya.com/)
 *  [Felix Leibfried](http://www.felixleibfried.com/)
 *  [Pedro Ortega](http://www.adaptiveagents.org/)
+*  [Jan Hendrik Metzen](https://jmetzen.github.io/)
