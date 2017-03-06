@@ -28,7 +28,7 @@ which can also be represented as the graphical model $$W \rightarrow X \rightarr
 The classical approach is to treat perception as an inference problem and compute the most likely world-state, given the current percept using Bayesian inference:
 
 $$
-p(w|x)=\frac{p(x|w)p(x)}{p(w)}
+p(w|x)=\frac{p(x|w)p(w)}{p(x)}
 $$
 
 The subsequent decision-maker should then maximize the expected utility under the posterior belief over $$w$$: $$U(x,a) = \sum_w p(w \vert x) U(w,a)$$. Since the decision-maker has limited computational resources, it can be modeled with the information-theoretic framework for bounded rationality. From the [previous research article]({{ site.url }}/research/naturalabstractions/) it follows that the decision-making stage is given by:
