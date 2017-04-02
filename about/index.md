@@ -17,8 +17,9 @@ permalink: /about/
   {% include _author-bio.html %}
 </div>
 <a markdown="0" href="{{ site.url }}/files/CV.pdf" class="btn"><i class="fa fa-fw fa-download"></i> Download CV</a>
+<a markdown="0" href="{{ site.url }}/files/PhD_Thesis.pdf" class="btn"><i class="fa fa-graduation-cap"></i> Download thesis</a>
 
-I am a researcher in the Deep Learning group at the Bosch Center for Artificial Intelligence (BCAI) located in Renningen, near Stuttgart, Germany. We conduct machine learning research with the aim to improve the current state-of-the-art and lay the groundwork for cutting-edge solutions and services. Our horizon lies well beyond the next product generation, thus we believe it is crucial to actively and openly engage with academia and contribute towards the scientific community via publications and scientific conferences.
+I am a researcher in the Deep Learning group at the Bosch Center for Artificial Intelligence (BCAI) located in Renningen, near Stuttgart, Germany. My research topics include neural network compression methods and Bayesian deep learning. The BCAI conducts machine learning research with the aim to improve the current state-of-the-art and lay the groundwork for cutting-edge solutions and services. Our horizon lies well beyond the next product generation, thus we believe it is crucial to actively and openly engage with academia and contribute towards the scientific community via publications and scientific conferences.
 
 ### Biological Cybernetics / Intelligent Systems
 My PhD years were well spent at the [Max-Planck Institute for Intelligent Systems](http://www.is.mpg.de/) and the [Max-Planck Institute for Biological Cybernetics](http://kyb.mpg.de/) in Tübingen, Germany, where I was part of the [Sensorimotor Learning and Decision-Making](http://www.kyb.tuebingen.mpg.de/research/rg/braun.html) research group, headed by [Daniel A. Braun](https://www.uni-ulm.de/in/neuroinformatik/mitarbeiter/d-braun/). Our group was interested in connecting sensorimotor learning with theoretical models for decision-making. My research has been focused on understanding how decision-makers can leverage the (statistical) structure of their environment in order to efficiently cope with uncertainty. In my PhD, I was working on theoretical models of structure learning but I also investigated structure learning and structure selection mechanisms in humans through virtual reality experiments. Detailed information about my research is [here]({{ site.url}}/research/).  
@@ -43,7 +44,7 @@ During my time in Graz I was also working as a part-time software-developer at I
 * **2006 - 2009: BSc Telematics**, Graz University of Technology
   *  BSc thesis: *evaluation of aspect-oriented programming in a commercial software project* [[download]({{ site.url }}/files/telematics/BachelorArbeit_Genewein.pdf)(German)]
 
-### Industrial experience
+### Experience
 * **11/2009 - 03/2011 (part-time): Software developer** at NTE Systems, Graz
   * Encapsulation of ZigBee-to-web communication for an embedded smart-home controller (.NET WCF and .NET Micro Framework, plus prototype-GUI with .NET WPF) [[download]({{ site.url }}/files/telematics/smartHomeControl.pdf)]
   * Web service implementation on embedded platform (SOAP with .NET WCF and .NET Micro Framework) [[download]({{ site.url }}/files/telematics/Projektarbeit_Genewein.pdf)(German)]
