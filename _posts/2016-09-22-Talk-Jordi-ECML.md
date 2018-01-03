@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Talk by Jordi Grau-Moya @ ECML 2016"
+title:  "Paper presented @ ECML 2016: Planning with Information-Processing Constraints and Model Uncertainty in Markov Decision Processes"
 date:   2016-09-22 11:00:00
 publication: true
-pubtype: "talk"
+pubtype: "paper"
 publink: "https://www.springerprofessional.de/en/planning-with-information-processing-constraints-and-model-uncer/10652396"
 downloadlink: "https://arxiv.org/pdf/1604.02080v1.pdf"
 pubtitle: "Planning with Information-Processing Constraints and Model Uncertainty in Markov Decision Processes"
 citeas: "Grau-Moya J, Leibfried F, Genewein T, Braun D.A. (2016) Planning with Information-Processing Constraints and Model Uncertainty in Markov Decision Processes. ECML PKDD 2016, Riva del Garda, Italy, Proceedings, Part II"
-excerpt: "Talk by Jordi Grau-Moya on our paper: Planning with Information-Processing Constraints and Model Uncertainty in Markov Decision Processes"
+excerpt: "Grau-Moya J, Leibfried F, Genewein T, Braun D.A. Planning with Information-Processing Constraints and Model Uncertainty in Markov Decision Processes"
 tags: [publication, talk, bounded rationality, decision-making, model uncertainty, MDP, planning]
 ---
 [Jordi Grau-Moya](http://graumoya.com/) presented our paper on *Planning with Information-Processing Constraints and Model Uncertainty in Markov Decision Processes* at ECML 2016. In the paper, the [free energy principle for decision-making](/research/boundedrationality) is used to model different traits of (human) decision-making in a Markov decision-process (MDP): 
