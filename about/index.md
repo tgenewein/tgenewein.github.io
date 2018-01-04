@@ -38,7 +38,7 @@ During my time in Graz I was also working as a part-time software-developer at I
 
 ### Education
 * **2012 - 2017: PhD student** (computational neuroscience), Max-Planck Institute for Intelligent Systems, Tübingen
-  * Topic: *Structure learning through hierarchies of abstraction* [[download]({{ site.url }}/files/PhD_Thesis.pdf)]
+  * Topic: *Structure Learning with Hierarchical Models for Computational Motor Control* [[download]({{ site.url }}/files/PhD_Thesis.pdf)]
 * **2009 - 2012: MSc Telematics**, Graz University of Technology
   * Focus on: computational intelligence, autonomous robots
   * MSc thesis: *Structure learning for robotic motor control* [[download]({{ site.url }}/files/telematics/MScThesis_Genewein.pdf)]
