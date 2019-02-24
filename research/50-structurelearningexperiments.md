@@ -10,4 +10,4 @@ permalink: /research/structurelearningexperiments/
 
 {% include _toc.html %}
 
-Coming soon - for now, have a look [here]({{ site.url }}/Paper-2D-StructureLearning/)
+See [here]({{ site.url }}/Paper-2D-StructureLearning/)
