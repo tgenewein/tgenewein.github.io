@@ -30,17 +30,17 @@ owner:
   avatar: bio-photo_new.jpg
   bio: ""
   topic: "Information-optimal hierarchies for inference and decision-making"
-  affiliation: "Bosch Center for Artificial Intelligence"
-  city: "Stuttgart - Renningen"
-  country: "Germany"
+  affiliation: "DeepMind"
+  city: "London"
+  country: "UK"
   email:
   disqus-shortname:
   twitter: #username
   facebook: #username
   google:
     plus: #username
-    analytics: UA-67740048-4
-    verify: xio3xMA4L7GA6clZpfS6Sv60FY6NR4R_m4Rbv_HK9k4
+    analytics: #UA-67740048-4
+    verify: #xio3xMA4L7GA6clZpfS6Sv60FY6NR4R_m4Rbv_HK9k4
     ad-client:
     ad-slot:
     scholar: "https://scholar.google.com/citations?user=peNTK9oAAAAJ&hl=en"
