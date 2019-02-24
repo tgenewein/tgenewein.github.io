@@ -2,7 +2,7 @@
 layout: page
 title: About
 share: false
-excerpt: "I am a researcher at the Bosch Center for Artificial Intelligence (BCAI)"
+excerpt: "I am a research scientist at DeepMind working on AI safety"
 tags: [bounded rationality, hierarchies, rate distortion, information theory, decision making, deep learning, tim genewein]
 permalink: /about/
 # modified: 2014-08-08T20:53:07.573882-04:00
@@ -19,7 +19,7 @@ permalink: /about/
 <a markdown="0" href="{{ site.url }}/files/CV.pdf" class="btn"><i class="fa fa-fw fa-download"></i> Download CV</a>
 <a markdown="0" href="{{ site.url }}/files/PhD_Thesis.pdf" class="btn"><i class="fa fa-graduation-cap"></i> Download thesis</a>
 
-I am a research scientist in the Deep Learning Perception group at the [Bosch Center for Artificial Intelligence (BCAI)](https://www.bosch-ai.com/en/home/home.html) located in Renningen, near Stuttgart, Germany. The BCAI conducts machine learning research with the aim to improve the current state-of-the-art and lay the groundwork for cutting-edge solutions and services. Our horizon lies well beyond the next product generation, thus we believe it is crucial to actively and openly engage with academia and contribute towards the scientific community via publications and scientific conferences. My research interests are: information-optimal hierarchical models (coupling perception with action), Bayesian deep learning, neural network compression, bounded rational decision-making (optimal decision-making under limited computational capacity) and information-theoretic methods in inference and decision-making.
+I am a research scientist at DeepMind, based in London. My research interests are: information-optimal hierarchical models (coupling perception with action), Bayesian deep learning, neural network compression, bounded rational decision-making (optimal decision-making under limited computational capacity) and information-theoretic methods in inference and decision-making.
 
 
 ### Biological Cybernetics / Intelligent Systems
@@ -32,7 +32,8 @@ During my time in Graz I was also working as a part-time software-developer at I
 ---
 
 ### Affiliations
-* **02/2017 - present** Research Scientist at Deep Learning Perception group, Bosch Center for Artificial Intelligence (established in 02/2017), Renningen, Germany.
+* **10/2018 - present** Research Scientist at DeepMind
+* **02/2017 - 09/2018** Research Scientist at Deep Learning Perception group, Bosch Center for Artificial Intelligence (established in 02/2017), Renningen, Germany.
 * **07/2016 - 01/2017** Researcher at Cognitive Systems group, Bosch Corporate Research, Renningen, Germany.
 * **01/2012 - 06/2016** PhD candidate, Max-Planck Institute for Intelligent Systems, Tübingen
 
@@ -63,7 +64,7 @@ I am a fan of the idea of lowering the barrier to make research practically repr
 I am also a big fan of [Julia](http://julialang.org/) and very curious to spend more time on [Edward](http://edwardlib.org/).
 
 Some things to get a casual conversation going:  
-In my spare-time I still like to tinker a bit with embedded systems and I'm fascinated by aesthetic or intriguing implementations of theoretical phenomena (e.g. kinetic sculptures, the wave pendulum or mechanical Fourier analyzers) - of course I had to buy (more than) one of [these](http://www.mandelmap.com/). I'd love to be at a Gathering for Gardner [G4G](http://gathering4gardner.org) once. I'm always curious about how to use machine learning and AI for good - I think that recently machine learning has become a tool to massively centralize wealth and power and I'd be interested in hearing about ideas on how to reverse or break that trend (education, open source/open access, ownership of the data produced by you, ...?). I'm also into baking bread and got interested in fermentation in general thanks to Sandor Katz' wonderful book *The Art of Fermentation*. If you're looking for a superb cookbook that's interesting to read even without cooking, go for Kenji Lopez-Alt's *The Food Lab*.
+In my spare-time I still like to tinker a bit with embedded systems and I'm fascinated by aesthetic or intriguing implementations of theoretical phenomena (e.g. kinetic sculptures, the wave pendulum or mechanical Fourier analyzers) - of course I had to buy (more than) one of [these](http://www.mandelmap.com/). I'm always curious about how to use machine learning and AI for good - I think that recently machine learning has become a tool to massively centralize wealth and power and I'd be interested in hearing about ideas on how to reverse or break that trend (education, open source/open access, ownership of the data produced by you, ...?). I'm also into baking bread and got interested in fermentation in general thanks to Sandor Katz' wonderful book *The Art of Fermentation*. If you're looking for a superb cookbook that's interesting to read even without cooking, go for Kenji Lopez-Alt's *The Food Lab*.
 
 ---
 
