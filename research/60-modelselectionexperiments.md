@@ -10,4 +10,4 @@ permalink: /research/modelselectionexperiments/
 
 {% include _toc.html %}
 
-Coming soon - for now, have a look [here]({{ site.url }}/Paper-OccamsRazorSensorimotor/)
+See [here]({{ site.url }}/Paper-OccamsRazorSensorimotor/)
